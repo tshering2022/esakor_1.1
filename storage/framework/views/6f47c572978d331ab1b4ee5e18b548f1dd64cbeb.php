@@ -694,15 +694,13 @@
                                                                                             data-sort="customer_name">#
                                                                                         </th>
                                                                                         <th class="sort"
-                                                                                            data-sort="email">Date</th>
+                                                                                            data-sort="email">PlotID</th>
                                                                                         <th class="sort"
-                                                                                            data-sort="phone">Author</th>
+                                                                                            data-sort="phone">Precint</th>
                                                                                         <th class="sort"
-                                                                                            data-sort="date">Role</th>
+                                                                                            data-sort="date">Thram Area</th>
                                                                                         <th class="sort"
-                                                                                            data-sort="status">Satus</th>
-                                                                                        <th class="sort"
-                                                                                            data-sort="date">Remarks</th>
+                                                                                            data-sort="status">Transaction Area</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="list form-check-all">
@@ -720,9 +718,6 @@
                                                                                             580-464-4694</td>
                                                                                         <td class="date">06 Apr,
                                                                                             2021</td>
-                                                                                        <td class="remark">06 Apr,
-                                                                                            2021</td>
-                                                                                        <td class="remark">Remarks
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
