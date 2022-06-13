@@ -1,16 +1,17 @@
-@extends('layouts.master')
-@section('title')
-    @lang('translation.basic-elements')
-@endsection
-@section('content')
-    @component('components.breadcrumb')
-        @slot('li_1')
+
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->get('translation.basic-elements'); ?>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+    <?php $__env->startComponent('components.breadcrumb'); ?>
+        <?php $__env->slot('li_1'); ?>
             Forms
-        @endslot
-        @slot('title')
+        <?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
             Basic Elements
-        @endslot
-    @endcomponent
+        <?php $__env->endSlot(); ?>
+    <?php echo $__env->renderComponent(); ?>
+
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
@@ -371,7 +372,8 @@ Must be 8-20 characters long.
                         <!--end row-->
                     </div>
                     <div class="d-none code-view">
-                        <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                        <pre
+                            class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -595,7 +597,8 @@ Must be 8-20 characters long.
                         </div>
                     </div>
                     <div class="d-none code-view">
-                        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3">oup&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Basic example --&gt;
+&lt;div class=&quot;input-group&quot;&gt;
 &lt;span class=&quot;input-group-text&quot; id=&quot;basic-addon1&quot;&gt;@&lt;/span&gt;
 &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Username&quot; aria-label=&quot;Username&quot; aria-describedby=&quot;basic-addon1&quot;&gt;
 &lt;/div&gt;</code>
@@ -605,14 +608,14 @@ Must be 8-20 characters long.
 &lt;/div&gt;</code>
 <code>&lt;div class=&quot;input-group&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;('content')
-@component('components.breadcrumb')
-@slot('li_1')
+<?php $__env->startComponent('components.breadcrumb'); ?>
+<?php $__env->slot('li_1'); ?>
 Forms
-@endslot
-        @slot('title')
+<?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
 Basic Elements
-@endslot
-@endcomponent
+<?php $__env->endSlot(); ?>
+<?php echo $__env->renderComponent(); ?>
 
     <div class="row">
         <div class="col-lg-12">
@@ -976,7 +979,8 @@ Must be 8-20 characters long.
                         <!--end row-->
                     </div>
                     <div class="d-none code-view">
-                        <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                        <pre
+                            class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -1200,7 +1204,8 @@ Must be 8-20 characters long.
                         </div>
                     </div>
                     <div class="d-none code-view">
-                        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3">oup&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Basic example --&gt;
+&lt;div class=&quot;input-group&quot;&gt;
 &lt;span class=&quot;input-group-text&quot; id=&quot;basic-addon1&quot;&gt;@&lt;/span&gt;
 &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Username&quot; aria-label=&quot;Username&quot; aria-describedby=&quot;basic-addon1&quot;&gt;
 &lt;/div&gt;</code>
@@ -1210,14 +1215,14 @@ Must be 8-20 characters long.
 &lt;/div&gt;</code>
 <code>&lt;div class=&quot;input-group&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;('content')
-    @component('components.breadcrumb')
-@slot('li_1')
+    <?php $__env->startComponent('components.breadcrumb'); ?>
+<?php $__env->slot('li_1'); ?>
 Forms
-@endslot
-        @slot('title')
+<?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
 Basic Elements
-@endslot
-@endcomponent
+<?php $__env->endSlot(); ?>
+<?php echo $__env->renderComponent(); ?>
 
     <div class="row">
         <div class="col-lg-12">
@@ -1581,7 +1586,8 @@ Must be 8-20 characters long.
                         <!--end row-->
                     </div>
                     <div class="d-none code-view">
-                        <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                        <pre
+                            class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -2559,7 +2565,8 @@ Must be 8-20 characters long.
                         </div>
                     </div>
                     <div class="d-none code-view">
-                        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3">group mb-3&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Multiple Inputs --&gt;
+&lt;div class=&quot;input-group mb-3&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;First and last name&lt;/span&gt;
 &lt;input type=&quot;text&quot; aria-label=&quot;First name&quot; class=&quot;form-control&quot;&gt;
 &lt;input type=&quot;text&quot; aria-label=&quot;Last name&quot; class=&quot;form-control&quot;&gt;
@@ -2567,14 +2574,14 @@ Must be 8-20 characters long.
 
 <code>&lt;div class=&quot;input-group mb-3&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;('content')
-    @component('components.breadcrumb')
-@slot('li_1')
+    <?php $__env->startComponent('components.breadcrumb'); ?>
+<?php $__env->slot('li_1'); ?>
 Forms
-@endslot
-        @slot('title')
+<?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
 Basic Elements
-@endslot
-@endcomponent
+<?php $__env->endSlot(); ?>
+<?php echo $__env->renderComponent(); ?>
 
     <div class="row">
         <div class="col-lg-12">
@@ -2938,7 +2945,8 @@ Must be 8-20 characters long.
                         <!--end row-->
                     </div>
                     <div class="d-none code-view">
-                        <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                        <pre
+                            class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -3784,14 +3792,14 @@ Must be 8-20 characters long.
         &lt;input type=&quot;text&quot; class=&quot;form-control&quot; aria-label=&quot;Dollar amount (with dot and two
         decimal places)&quot;&gt;
         &lt;span class=&quot;input-group-text&quot;&gt;('content')
-        @component('components.breadcrumb')
-            @slot('li_1')
+        <?php $__env->startComponent('components.breadcrumb'); ?>
+            <?php $__env->slot('li_1'); ?>
                 Forms
-            @endslot
-            @slot('title')
+            <?php $__env->endSlot(); ?>
+            <?php $__env->slot('title'); ?>
                 Basic Elements
-            @endslot
-        @endcomponent
+            <?php $__env->endSlot(); ?>
+        <?php echo $__env->renderComponent(); ?>
 
         <div class="row">
             <div class="col-lg-12">
@@ -4155,7 +4163,8 @@ Must be 8-20 characters long.
                             <!--end row-->
                         </div>
                         <div class="d-none code-view">
-                            <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                            <pre
+                                class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -5588,7 +5597,8 @@ Must be 8-20 characters long.
                         </div>
                     </div>
                     <div class="d-none code-view">
-                        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3">group mb-3&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Multiple Inputs --&gt;
+&lt;div class=&quot;input-group mb-3&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;First and last name&lt;/span&gt;
 &lt;input type=&quot;text&quot; aria-label=&quot;First name&quot; class=&quot;form-control&quot;&gt;
 &lt;input type=&quot;text&quot; aria-label=&quot;Last name&quot; class=&quot;form-control&quot;&gt;
@@ -5596,14 +5606,14 @@ Must be 8-20 characters long.
 
 <code>&lt;div class=&quot;input-group mb-3&quot;&gt;
 &lt;span class=&quot;input-group-text&quot;&gt;('content')
-    @component('components.breadcrumb')
-@slot('li_1')
+    <?php $__env->startComponent('components.breadcrumb'); ?>
+<?php $__env->slot('li_1'); ?>
 Forms
-@endslot
-        @slot('title')
+<?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
 Basic Elements
-@endslot
-@endcomponent
+<?php $__env->endSlot(); ?>
+<?php echo $__env->renderComponent(); ?>
 
     <div class="row">
         <div class="col-lg-12">
@@ -5968,7 +5978,8 @@ Must be 8-20 characters long.
                         <!--end row-->
                     </div>
                     <div class="d-none code-view">
-                        <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                        <pre
+                            class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -6815,14 +6826,14 @@ Must be 8-20 characters long.
         &lt;input type=&quot;text&quot; class=&quot;form-control&quot; aria-label=&quot;Dollar amount (with dot and two
         decimal places)&quot;&gt;
         &lt;span class=&quot;input-group-text&quot;&gt;('content')
-        @component('components.breadcrumb')
-            @slot('li_1')
+        <?php $__env->startComponent('components.breadcrumb'); ?>
+            <?php $__env->slot('li_1'); ?>
                 Forms
-            @endslot
-            @slot('title')
+            <?php $__env->endSlot(); ?>
+            <?php $__env->slot('title'); ?>
                 Basic Elements
-            @endslot
-        @endcomponent
+            <?php $__env->endSlot(); ?>
+        <?php echo $__env->renderComponent(); ?>
 
         <div class="row">
             <div class="col-lg-12">
@@ -7186,7 +7197,8 @@ Must be 8-20 characters long.
                             <!--end row-->
                         </div>
                         <div class="d-none code-view">
-                            <pre class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
+                            <pre
+                                class="language-markup"><code>&lt;!-- Form Control Sm --&gt;
 &lt;input class=&quot;form-control form-control-sm&quot; type=&quot;text&quot; placeholder=&quot;.form-control-sm&quot;&gt;</code>
 
 <code>&lt;!-- Form Control Default --&gt;
@@ -8474,8 +8486,10 @@ Must be 8-20 characters long.
         <!--end col-->
     </div>
     <!--end row-->
-@endsection
-@section('script')
-    <script src="{{ URL::asset('/assets/libs/prismjs/prismjs.min.js') }}"></script>
-    <script src="{{ URL::asset('/assets/js/app.min.js') }}"></script>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('script'); ?>
+    <script src="<?php echo e(URL::asset('/assets/libs/prismjs/prismjs.min.js')); ?>"></script>
+    <script src="<?php echo e(URL::asset('/assets/js/app.min.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\esakor_1.1\resources\views/forms-elements.blade.php ENDPATH**/ ?>

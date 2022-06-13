@@ -16,6 +16,13 @@ class FrontController extends Controller
         return view('landing');
     }
 
+    //transaction
+    public function transaction()
+    {
+        return view('front-end.transaction');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
