@@ -321,7 +321,7 @@
                                                                                     class="form-control"
                                                                                     id="passwordInput"
                                                                                     placeholder="Transaction
-                                                                                                                    Party Qualification">
+                                                                                                                        Party Qualification">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -336,7 +336,8 @@
                                                                                     <input type="text"
                                                                                         class="form-control"
                                                                                         placeholder="Withness
-                                                                                                                        CID" aria-label="Username"
+                                                                                                                            CID"
+                                                                                        aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
                                                                             </div>
@@ -349,8 +350,9 @@
                                                                                     Name</label>
                                                                                 <input type="password"
                                                                                     class="form-control"
-                                                                                    id="passwordInput" placeholder="Withness
-                                                                                                                    Name">
+                                                                                    id="passwordInput"
+                                                                                    placeholder="Withness
+                                                                                                                        Name">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -660,7 +662,8 @@
                                                                                 <div class="col-xxl-6">
                                                                                     <div>
                                                                                         <label for="firstName"
-                                                                                            class="form-label">Nature of Transaction
+                                                                                            class="form-label">Nature
+                                                                                            of Transaction
                                                                                         </label>
                                                                                         <input type="text"
                                                                                             class="form-control"
@@ -672,219 +675,214 @@
                                                                                 <div class="col-xxl-6">
                                                                                     <div>
                                                                                         <label for="lastName"
-                                                                                            class="form-label">Transaction Thram</label>
+                                                                                            class="form-label">Transaction
+                                                                                            Thram</label>
                                                                                         <input type="text"
                                                                                             class="form-control"
                                                                                             id="lastName"
                                                                                             placeholder="Transaction Thram">
                                                                                     </div>
                                                                                 </div>
-                                                                                 <!--end col-->
+                                                                                <!--end col-->
                                                                                 <!--end col-->
                                                                             </div>
                                                                             <!--end row-->
-                                                                        </form>
-                                                                        
-                                                                        <div class="table-responsive table-card mt-3 mb-1">
-                                                                            <table class="table align-middle table-nowrap"
-                                                                                id="customerTable">
-                                                                                <thead class="table-light">
-                                                                                    <tr>
-                                                                                        <th class="sort"
-                                                                                            data-sort="customer_name">#
-                                                                                        </th>
-                                                                                        <th class="sort"
-                                                                                            data-sort="email">PlotID</th>
-                                                                                        <th class="sort"
-                                                                                            data-sort="phone">Precint</th>
-                                                                                        <th class="sort"
-                                                                                            data-sort="date">Thram Area</th>
-                                                                                        <th class="sort"
-                                                                                            data-sort="status">Transaction Area</th>
-                                                                                    </tr>
-                                                                                </thead>
-                                                                                <tbody class="list form-check-all">
-                                                                                    <tr>
-                                                                                        <td class="id"
-                                                                                            style="display:none;"><a
-                                                                                                href="javascript:void(0);"
-                                                                                                class="fw-medium link-primary">#VZ2101</a>
-                                                                                        </td>
-                                                                                        <td class="customer_name">Mary
-                                                                                        </td>
-                                                                                        <td class="email">mary
-                                                                                            Cousar</td>
-                                                                                        <td class="phone">
-                                                                                            580-464-4694</td>
-                                                                                        <td class="date">06 Apr,
-                                                                                            2021</td>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                            <div class="noresult"
-                                                                                style="display: none">
-                                                                                <div class="text-center">
-                                                                                    <lord-icon
-                                                                                        src="https://cdn.lordicon.com/msoeawqm.json"
-                                                                                        trigger="loop"
-                                                                                        colors="primary:#121331,secondary:#08a88a"
-                                                                                        style="width:75px;height:75px">
-                                                                                    </lord-icon>
-                                                                                    <h5 class="mt-2">Sorry! No
-                                                                                        Result Found</h5>
-                                                                                    <p class="text-muted mb-0">We've
-                                                                                        searched more than 150+
-                                                                                        Orders We did not find any
-                                                                                        orders for you search.</p>
+                                                                            
+                                                                            <div
+                                                                                class="table-responsive table-card mt-3 mb-1">
+                                                                                <table
+                                                                                    class="table align-middle table-nowrap"
+                                                                                    id="customerTable">
+                                                                                    <thead class="table-light">
+                                                                                        <tr>
+                                                                                            <th class="sort"
+                                                                                                data-sort="customer_name">#
+                                                                                            </th>
+                                                                                            <th class="sort"
+                                                                                                data-sort="email">PlotID
+                                                                                            </th>
+                                                                                            <th class="sort"
+                                                                                                data-sort="phone">Precint
+                                                                                            </th>
+                                                                                            <th class="sort"
+                                                                                                data-sort="date">Thram Area
+                                                                                            </th>
+                                                                                            <th class="sort"
+                                                                                                data-sort="status">
+                                                                                                Transaction Area</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody class="list form-check-all">
+                                                                                        <tr>
+                                                                                            <td class="id"
+                                                                                                style="display:none;"><a
+                                                                                                    href="javascript:void(0);"
+                                                                                                    class="fw-medium link-primary">#VZ2101</a>
+                                                                                            </td>
+                                                                                            <td class="customer_name">Mary
+                                                                                            </td>
+                                                                                            <td class="email">mary
+                                                                                                Cousar</td>
+                                                                                            <td class="phone">
+                                                                                                580-464-4694</td>
+                                                                                            <td class="date">06
+                                                                                                Apr,
+                                                                                                2021</td>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <div class="m-xl-3 m-lg-3 m-sm-3 mt-xl-2">
+                                                                                    <label for="VertimeassageInput"
+                                                                                        class="form-label">Remark</label>
+                                                                                    <textarea class="form-control" id="VertimeassageInput" rows="3" placeholder="Remarks"></textarea>
                                                                                 </div>
-                                                                            </div>
-                                                                        </div>
+                                                                        </form>
                                                                     </div>
-                                                                </div><!-- end card -->
-                                                            </div>
-                                                            <!-- end col -->
+                                                                </div>
+                                                            </div><!-- end card -->
                                                         </div>
                                                         <!-- end col -->
                                                     </div>
-                                                    <!-- end row -->
-                                                    <!--end col-->
-                                                    <div class="col-lg-12">
-                                                        <div class="hstack gap-2 justify-content-end">
-                                                            <button type="button" class="btn btn-light"
-                                                                data-bs-dismiss="modal">Close</button>
-                                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                                    <!-- end col -->
+                                                </div>
+                                                <!-- end row -->
+                                                <!--end col-->
+                                                <div class="col-lg-12">
+                                                    <div class="hstack gap-2 justify-content-end">
+                                                        <button type="button" class="btn btn-light"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive table-card mt-3 mb-1">
+                                    <table class="table align-middle table-nowrap" id="customerTable">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th class="sort" data-sort="sl">#</th>
+                                                <th class="sort" data-sort="party">PlotID</th>
+                                                <th class="sort" data-sort="name">Precint</th>
+                                                <th class="sort" data-sort="phone">Thram Area
+                                                </th>
+                                                <th class="sort" data-sort="date">Transaction
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="list form-check-all">
+                                            <tr>
+                                                <td class="id" style="display:none;"><a
+                                                        href="javascript:void(0);"
+                                                        class="fw-medium link-primary">#VZ2101</a></td>
+                                                <td class="customer_name">Mary Cousar</td>
+                                                <td class="email">marycousar@velzon.com</td>
+                                                <td class="phone">580-464-4694</td>
+                                                <td class="date">06 Apr, 2021</td>
+                                                <td>
+                                                    <div class="d-flex gap-2">
+                                                        <div class="edit">
+                                                            <button class="btn btn-sm btn-success edit-item-btn"
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#showModal">Edit</button>
+                                                        </div>
+                                                        <div class="remove">
+                                                            <button class="btn btn-sm btn-danger remove-item-btn"
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#deleteRecordModal">Remove</button>
                                                         </div>
                                                     </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="table-responsive table-card mt-3 mb-1">
-                                        <table class="table align-middle table-nowrap" id="customerTable">
-                                            <thead class="table-light">
-                                                <tr>
-                                                    <th class="sort" data-sort="sl">#</th>
-                                                    <th class="sort" data-sort="party">PlotID</th>
-                                                    <th class="sort" data-sort="name">Precint</th>
-                                                    <th class="sort" data-sort="phone">Thram Area
-                                                    </th>
-                                                    <th class="sort" data-sort="date">Transaction
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="list form-check-all">
-                                                <tr>
-                                                    <td class="id" style="display:none;"><a
-                                                            href="javascript:void(0);"
-                                                            class="fw-medium link-primary">#VZ2101</a></td>
-                                                    <td class="customer_name">Mary Cousar</td>
-                                                    <td class="email">marycousar@velzon.com</td>
-                                                    <td class="phone">580-464-4694</td>
-                                                    <td class="date">06 Apr, 2021</td>
-                                                    <td>
-                                                        <div class="d-flex gap-2">
-                                                            <div class="edit">
-                                                                <button class="btn btn-sm btn-success edit-item-btn"
-                                                                    data-bs-toggle="modal"
-                                                                    data-bs-target="#showModal">Edit</button>
-                                                            </div>
-                                                            <div class="remove">
-                                                                <button class="btn btn-sm btn-danger remove-item-btn"
-                                                                    data-bs-toggle="modal"
-                                                                    data-bs-target="#deleteRecordModal">Remove</button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
+                            </div>
 
-                                <div class="d-flex align-items-start gap-3 mt-4">
-                                    <button type="button" class="btn btn-link text-decoration-none btn-label previestab"
-                                        data-previous="pills-gen-info-tab"><i
-                                            class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to
-                                        General</button>
-                                    <button type="button" class="btn btn-success btn-label right ms-auto nexttab
+                            <div class="d-flex align-items-start gap-3 mt-4">
+                                <button type="button" class="btn btn-link text-decoration-none btn-label previestab"
+                                    data-previous="pills-gen-info-tab"><i
+                                        class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to
+                                    General</button>
+                                <button type="button" class="btn btn-success btn-label right ms-auto nexttab
 nexttab"
-                                        data-nexttab="pills-success-tab"><i
-                                            class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>Submit</button>
-                                </div>
+                                    data-nexttab="pills-success-tab"><i
+                                        class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>Submit</button>
                             </div>
-                            
-
-                            
-                            <div class="tab-pane fade" id="pills-success3" role="tabpanel"
-                                aria-labelledby="pills-success-tab">
-                                <div>
-                                    <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
-                                        <div class="col-sm-auto mt-sm-2">
-                                            <div>
-                                                <button type="button" class="btn btn-success add-btn"
-                                                    data-bs-toggle="modal" data-bs-target="#exampleModalgridtrans1"><i
-                                                        class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row mt-xl-4 mt-md-4 mt-sm-3">
-                                        <div class="col">
-                                            <p class="mb-1 font-weight-bold">Land/Flat/Building Valuation</p>
-                                        </div>
-                                        <div class="col">
-                                            <p class="mb-1">Cost of Building/Flat(Ngultrum|Nu):14823443</p>
-                                        </div>
-                                    </div>
-                                    <div class="row mt-xl-4 mt-md-4 mt-sm-3">
-                                        <div class="col">
-                                            <p class="mb-1 font-weight-bold">Cost of Land(Ngultrum|Nu):</p>
-                                            <p class="mb-1 font-weight-bold">Cost of Building/Flat(Ngultrum|Nu):</p>
-                                        </div>
-                                    </div>
-                                    <hr class="line-line">
-                                    <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
-                                        <div class="col-sm-auto mt-sm-2">
-                                            <div>
-                                                <button type="button" class="btn btn-success add-btn"
-                                                    data-bs-toggle="modal" data-bs-target="#exampleModalgridtrans1"><i
-                                                        class="ri-add-line align-bottom me-1"></i>Add Attachment</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end three step button -->
-                            
-                            <div class="tab-pane fade" id="pills-success" role="tabpanel"
-                                aria-labelledby="pills-success-tab">
-                                <div>
-                                    <div class="text-center">
-
-                                        <div class="mb-4">
-                                            <lord-icon src="https://cdn.lordicon.com/lupuorrc.json" trigger="loop"
-                                                colors="primary:#0ab39c,secondary:#405189" style="width:120px;height:120px">
-                                            </lord-icon>
-                                        </div>
-                                        <h5>Well Done !</h5>
-                                        <p class="text-muted">You have Successfully Completed the transaction
-                                            application</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end tab pane -->
-                            
                         </div>
-                        <!-- end tab content -->
-                    </form>
+                        
+
+                        
+                        <div class="tab-pane fade" id="pills-success3" role="tabpanel"
+                            aria-labelledby="pills-success-tab">
+                            <div>
+                                <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
+                                    <div class="col-sm-auto mt-sm-2">
+                                        <div>
+                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModalgridtrans1"><i
+                                                    class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-xl-4 mt-md-4 mt-sm-3">
+                                    <div class="col">
+                                        <p class="mb-1 font-weight-bold">Land/Flat/Building Valuation</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="mb-1">Cost of Building/Flat(Ngultrum|Nu):14823443</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-xl-4 mt-md-4 mt-sm-3">
+                                    <div class="col">
+                                        <p class="mb-1 font-weight-bold">Cost of Land(Ngultrum|Nu):</p>
+                                        <p class="mb-1 font-weight-bold">Cost of Building/Flat(Ngultrum|Nu):</p>
+                                    </div>
+                                </div>
+                                <hr class="line-line">
+                                <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
+                                    <div class="col-sm-auto mt-sm-2">
+                                        <div>
+                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModalgridtrans1"><i
+                                                    class="ri-add-line align-bottom me-1"></i>Add Attachment</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end three step button -->
+                        
+                        <div class="tab-pane fade" id="pills-success" role="tabpanel" aria-labelledby="pills-success-tab">
+                            <div>
+                                <div class="text-center">
+
+                                    <div class="mb-4">
+                                        <lord-icon src="https://cdn.lordicon.com/lupuorrc.json" trigger="loop"
+                                            colors="primary:#0ab39c,secondary:#405189" style="width:120px;height:120px">
+                                        </lord-icon>
+                                    </div>
+                                    <h5>Well Done !</h5>
+                                    <p class="text-muted">You have Successfully Completed the transaction
+                                        application</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end tab pane -->
+                        
                 </div>
-                <!-- end card body -->
+                <!-- end tab content -->
+                </form>
             </div>
-            <!-- end card -->
+            <!-- end card body -->
         </div>
-        <!-- end col -->
+        <!-- end card -->
+    </div>
+    <!-- end col -->
     </div><!-- end row -->
     <!-- end row -->
 <?php $__env->stopSection(); ?>
