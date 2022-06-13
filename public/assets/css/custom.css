@@ -1,0 +1,27 @@
+/* valuation css code. */
+
+.topic-custom-css span {
+    color: #696CFF;
+}
+
+.mortgage-custom-css button {
+    color: #696CFF;
+}
+
+.mortgage-custom-css button:hover {
+    color: #696CFF;
+}
+
+.add-valuation-custom button {
+    border: 1px solid #45CB85;
+    color: #45CB85;
+}
+
+.add-valuation-custom .button-bg-custom {
+    background: #696CFF;
+}
+
+.add-valuation-custom button:hover {
+    border: 1px solid #45CB85;
+    color: #45CB85;
+}

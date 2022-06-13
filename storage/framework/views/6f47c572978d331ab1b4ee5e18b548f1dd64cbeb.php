@@ -4,6 +4,7 @@
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('css'); ?>
     <link rel="stylesheet" href="<?php echo e(URL::asset('assets/libs/swiper/swiper.min.css')); ?>">
+    <link href="<?php echo e(URL::asset('assets/css/custom.css')); ?>" rel="stylesheet" type="text/css" />
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('content'); ?>
     <div class="row">
@@ -178,8 +179,8 @@
                                     <div class="card mt-xl-3 mt-sm-3">
                                         <div class="card-body">
                                             <div id="customerList">
-                                                <div class="row g-4 mb-3">
-                                                    <div class="col-sm-auto mt-sm-2">
+                                                <div class="row g-4 mb-3 mt-sm-3">
+                                                    <div class="col-sm-auto">
                                                         <div>
                                                             <button type="button" class="btn btn-success add-btn"
                                                                 data-bs-toggle="modal"
@@ -818,40 +819,224 @@ nexttab"
                         
                         <div class="tab-pane fade" id="pills-success3" role="tabpanel"
                             aria-labelledby="pills-success-tab">
-                            <div>
-                                <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
-                                    <div class="col-sm-auto mt-sm-2">
-                                        <div>
-                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModalgridtrans1"><i
-                                                    class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
+                            <div class="row mt-4 ">
+                                <div class="col-lg-12 col-md-12 col-sm-12 tab-pane fade show active" id="valuation-ge-den-lue" aria-labelledby="pills-gen-info-tab" role="tabpanel">
+                                    <div class="row mx-5 bg-light border-top rounded-top">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 border-bottom-1 topic-custom-css">
+                                            <div class="d-flex justify-content-start p-3">
+                                                <div class="m-2"><h5 class="fs-4 fw-lighter">Inheritance ||</h5></div>
+                                                <div class="m-2"><h5 class="fs-4 fw-lighter">1420005 ||</h5></div>
+                                                <div class="m-2"><h5 class="fs-4 fw-lighter"><span>Initiated</span></h5></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 mortgage-custom-css">
+                                            <div class="d-flex justify-content-end p-3">
+                                                <!-- Button trigger modal -->
+                                               <div class="m-1">
+                                                <button type="button" class="btn btn-light btn-sm fs-6 border shadow d-flex justify-content-center align-items-center text-soso" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class=" ri-home-4-line pe-1 text-soso"></i>
+                                                    MORTGAGE DECLARATION FORM
+                                                    </button>
+                          
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                ...
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                    <button type="button" class="btn btn-primary">Understood</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                               </div>
+                                                
+                                                <!-- Button trigger modal -->
+                                                <div class="m-1">
+                                                    <button type="button" class="btn btn-light btn-sm fs-6 border shadow d-flex" data-bs-toggle="modal" data-bs-target="#staticBackdropActivity"><i class="ri-add-line pe-1"></i>
+                                                        VIEW ACTIVITY LOG
+                                                        </button>
+                              
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="staticBackdropActivity" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                    <h5 class="modal-title" id="staticBackdropLabel"><i data-feather="airplay"></i>ACTIVITY LOG</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="modal-body">
+                                                                    <div class="">
+                                                                        <table class="table table-striped">
+                                                                            <thead>
+                                                                              <tr>
+                                                                                <th scope="col">#</th>
+                                                                                <th scope="col">Date</th>
+                                                                                <th scope="col">Author</th>
+                                                                                <th scope="col">Role</th>
+                                                                                <th scope="col">Status</th>
+                                                                                <th scope="col">Remark</th>
+                                                                              </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <th scope="row">1</th>
+                                                                                <td>19/12</td>
+                                                                                <td>Mark</td>
+                                                                                <td>Finder</td>
+                                                                                <td>Excelent</td>
+                                                                                <td>Accepted</td>
+                                                                              </tr>
+                                                                              
+                                                                            </tbody>
+                                                                          </table>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                    
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="row mt-xl-4 mt-md-4 mt-sm-3">
-                                    <div class="col">
-                                        <p class="mb-1 font-weight-bold">Land/Flat/Building Valuation</p>
-                                    </div>
-                                    <div class="col">
-                                        <p class="mb-1">Cost of Building/Flat(Ngultrum|Nu):14823443</p>
-                                    </div>
-                                </div>
-                                <div class="row mt-xl-4 mt-md-4 mt-sm-3">
-                                    <div class="col">
-                                        <p class="mb-1 font-weight-bold">Cost of Land(Ngultrum|Nu):</p>
-                                        <p class="mb-1 font-weight-bold">Cost of Building/Flat(Ngultrum|Nu):</p>
-                                    </div>
-                                </div>
-                                <hr class="line-line">
-                                <div class="row g-4 mt-xl-2 mt-lg-2 mb-3">
-                                    <div class="col-sm-auto mt-sm-2">
-                                        <div>
-                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModalgridtrans1"><i
-                                                    class="ri-add-line align-bottom me-1"></i>Add Attachment</button>
+                                    <div class="row mx-5 bg-light border-bottom rounded-bottom shadow-lg">
+                                        <div class="col-12 add-valuation-custom">
+                                            <div class="border mx-3 mb-4 p-3">
+                                                <h6>valuation and Conveyance</h6>
+                                                <div class="mt-3">
+                                                    <button type="button" class="btn btn-light btn-sm fs-6 shadow d-flex" data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i class="ri-add-line fs-6 pe-1"></i>
+                                                        Add Valuation
+                                                        </button>
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="staticBackdropValuation" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title d-flex" id="staticBackdropLabel"><i data-feather="activity" class="ri-add-line fs-6 pe-1"></i>Add valuation</h5>
+                                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                    <div class="">
+                                                                        <div class="col-12 bg-success m-0">
+                                                                            hdjfhjkhdkjfhkdsjfhkjh
+                                                                        </div>
+                                                                    </div>
+                                                                    <form action="#">
+                                                                        <div class="mt-3 d-flex justify-content-between">
+                                                                            <div class="">
+                                                                                <label for="address" class="form-label">Total cost of the Land(Nu):</label>
+                                                                                <input type="number" class="form-control" id="address" placeholder="Total cost of the Land">
+                                                                            </div>
+                                                                            <div class="">
+                                                                                <label for="address" class="form-label">Cost of Building/Flat(Nu):</label>
+                                                                                <input type="number" class="form-control" id="address" placeholder="Cost of Building/Flat">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="mt-5">
+                                                                            <label for="address" class="form-label">The land or building conveyance may be:
+                                                                            </label>
+                                                                            <input type="number" class="form-control" id="address" placeholder="">
+                                                                        </div>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn border text-dark btn-sm" data-bs-dismiss="modal">CLOSE</button>
+                                                                            <button type="button" class="btn btn-sm text-light button-bg-custom">SUBMIT</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row mt-2">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                                        <div class="mt-2">
+                                                            <div class="d-flex">
+                                                                <i class=" ri-community-line fs-4 pe-1"></i><span class="d-block py-1"> Land/Flat/Building Valuation</span>
+                                                            </div>
+                                                            <span class="d-block ps-4 py-1">Cost of Land(Ngultrum | Nu):</span>
+                                                            <span class="d-block ps-4 py-1">Cost of Building/Flat(Ngultrum | Nu):</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 col-lg-6 col-md-6 col-sm-12">
+                                                        <div class="d-flex justify-content-start">
+                                                            <i class="ri-landscape-fill pe-1 fs-5"></i><p class="mt-1">Cost of Building/Flat(Ngultrum|Nu.): <span class="fw-4">14823443</span> </p>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                    <hr class="mt-3">
+                                                </div>
+                                                
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="mt-3 mb-5">
+                                                                <button type="button" class="btn btn-light btn-sm fs-6 shadow" data-bs-toggle="modal" data-bs-target="#staticBackdropAttachment">
+                                                                Add Attachment
+                                                                </button>
+                                                                <!-- Modal -->
+                                                                <div class="modal fade" id="staticBackdropAttachment" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                            <h5 class="modal-title" id="staticBackdropLabel"><i class="ri-add-line fs-6"></i>Add Attachment</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <div class="">
+                                                                                    <div class="col-12 bg-success m-0">
+                                                                                        hdjfhjkhdkjfhkdsjfhkjh
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="mt-3">
+                                                                                    <label for="address" class="form-label">Slect Files:
+                                                                                    </label>
+                                                                                    <input type="file" class="form-control" id="address" placeholder="1234 Main St">
+                                                                                </div>
+                                                                                <div class="mt-5">
+                                                                                    <label for="">Select File Types:</label>
+                                                                                    <select class="form-select mb-3" aria-label="Default select example">
+                                                                                        
+                                                                                        <option selected></option>
+                                                                                        <option value="1">1</option>
+                                                                                        <option value="2">2</option>
+                                                                                        <option value="3">3</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="modal-footer mt-3">
+                                                                                <button type="button" class="btn btn-sm border shadow-lg text-dark" data-bs-dismiss="modal">CLOSE</button>
+                                                                                <button type="button" class="btn btn-sm text-light button-bg-custom">UPLOAD</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="row mb-4 mt-2 mx-1">
+                                                <div class="col-12">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="pe-1">
+                                                            <button type="button" class="btn border btn-sm text-dark" data-bs-dismiss="modal">Back</button>
+                                                        </div>
+                                                        <div class="ps-1">
+                                                            <button type="button" class="btn btn-sm button-bg-custom text-light" data-bs-dismiss="modal">Complete</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
