@@ -4,6 +4,7 @@
 @endsection
 @section('css')
     <link rel="stylesheet" href="{{ URL::asset('assets/libs/swiper/swiper.min.css') }}">
+    <link href="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 @section('content')
     {{-- start row --}}
@@ -61,11 +62,18 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col">
-                            <h4 class="card-title">Inheritance || 1420005 || <span class="text-primary">Initiated</span></h4>
+                            <h4 class="card-title">Inheritance || 1420005 || <span
+                                    class="text-primary">Initiated</span></h4>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalgridview">+ VIEW ACTIVITY LOG</button>
+                            <button type="button"
+                                class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end m-xl-2 m-md-2 m-sm-2"
+                                data-bs-toggle="modal" data-bs-target="#exampleModalgridview">+ VIEW ACTIVITY LOG</button>
+                            <button type="button"
+                                class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end m-xl-2 m-md-2 m-sm-2"
+                                data-bs-toggle="modal" data-bs-target="#exampleModalgridview33"><i
+                                    class="ri-home-4-line pe-1 text-soso"></i> MORTGAGE DECLARATION
+                                FORM</button>
                         </div>
                     </div>
                 </div>
@@ -160,12 +168,14 @@
                                                 <div class="row g-2 mb-3 mt-sm-3">
                                                     <div class="col-sm-auto">
                                                         <div>
-                                                            <button type="button" class="btn border border-primary add-btn m-lg-2 m-sm-2 m-md-2"
+                                                            <button type="button"
+                                                                class="btn border border-primary add-btn m-lg-2 m-sm-2 m-md-2"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridtrans1"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
                                                                 Transferor/Transferee </button>
-                                                            <button type="button" class="btn border border-success add-btn m-lg-2 m-sm-2 m-md-2"
+                                                            <button type="button"
+                                                                class="btn border border-success add-btn m-lg-2 m-sm-2 m-md-2"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridfirms2"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
@@ -181,7 +191,8 @@
                                                     <div class="modal-dialog">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h5 class="modal-title" id="exampleModalgridLabel">+ADD
+                                                                <h5 class="modal-title" id="exampleModalgridLabel">
+                                                                    +ADD
                                                                     PERSONAL DETAILS</h5>
                                                                 <button type="button" class="btn-close"
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
@@ -300,7 +311,7 @@
                                                                                     class="form-control"
                                                                                     id="passwordInput"
                                                                                     placeholder="Transaction
-                                                                                                                                                                                            Party Qualification">
+                                                                                                                                                                                                                                        Party Qualification">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -315,7 +326,7 @@
                                                                                     <input type="text"
                                                                                         class="form-control"
                                                                                         placeholder="Withness
-                                                                                                                                                                                                CID"
+                                                                                                                                                                                                                                            CID"
                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
@@ -331,7 +342,7 @@
                                                                                     class="form-control"
                                                                                     id="passwordInput"
                                                                                     placeholder="Withness
-                                                                                                                                                                                            Name">
+                                                                                                                                                                                                                                        Name">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -371,7 +382,8 @@
                                                                         <div class="col-xxl-6">
                                                                             <div>
                                                                                 <label for="firstName"
-                                                                                    class="form-label">Name of Thram
+                                                                                    class="form-label">Name of
+                                                                                    Thram
                                                                                     Owner(Eng)
                                                                                 </label>
                                                                                 <input type="text" class="form-control"
@@ -383,7 +395,8 @@
                                                                         <div class="col-xxl-6">
                                                                             <div>
                                                                                 <label for="lastName"
-                                                                                    class="form-label">Name of Thram
+                                                                                    class="form-label">Name of
+                                                                                    Thram
                                                                                     Owner(Dzo)
                                                                                 </label>
                                                                                 <input type="text" class="form-control"
@@ -513,19 +526,23 @@
                                                                 <th class="sort" data-sort="sl">SL.No</th>
                                                                 <th class="sort" data-sort="party">Party</th>
                                                                 <th class="sort" data-sort="name">Name</th>
-                                                                <th class="sort" data-sort="phone">CID|DoB|Gender
+                                                                <th class="sort" data-sort="phone">
+                                                                    CID|DoB|Gender
                                                                 </th>
-                                                                <th class="sort" data-sort="date">Gewog|House No.
+                                                                <th class="sort" data-sort="date">Gewog|House
+                                                                    No.
                                                                 </th>
                                                                 <th class="sort" data-sort="date">
                                                                     Mobile|Email|Qualification</th>
-                                                                <th class="sort" data-sort="date">Thram|Ownership
+                                                                <th class="sort" data-sort="date">
+                                                                    Thram|Ownership
                                                                 </th>
                                                                 <th class="sort" data-sort="date">
                                                                     WitnessName|CID|Mobile</th>
                                                                 <th class="sort" data-sort="date">Lagthram
                                                                     Collection point</th>
-                                                                <th class="sort" data-sort="action">Action</th>
+                                                                <th class="sort" data-sort="action">Action
+                                                                </th>
                                                             </tr>
                                                         </thead>
                                                         <tbody class="list form-check-all">
@@ -582,7 +599,8 @@
                                     <div class="row g-4 mt-xl-1 mt-lg-mt-1 mt-ms-2 mb-3">
                                         <div class="col-sm-auto mt-sm-2">
                                             <div>
-                                                <button type="button" class="btn border border-success add-btn text-success"
+                                                <button type="button"
+                                                    class="btn border border-success add-btn text-success"
                                                     data-bs-toggle="modal" data-bs-target="#exampleModalgridaddtrans"><i
                                                         class="ri-add-line align-bottom me-1"></i>Add Transaction
                                                     Details</button>
@@ -820,13 +838,14 @@
                                                 </div>
                                             </form>
                                         </div>
-
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn border text-dark btn-sm"
-                                                data-bs-dismiss="modal">CLOSE</button>
-                                            <button type="button"
-                                                class="btn btn-sm text-light button-bg-custom">SUBMIT</button>
+                                        <div class="col-lg-12">
+                                            <div class="hstack gap-2 justify-content-end m-lg-4 m-md-4 m-sm-4">
+                                                <button type="button" class="btn btn-light"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
                                         </div>
+                                        <!--end col-->
                                     </div>
                                 </div>
                             </div>
@@ -859,7 +878,7 @@
                                 <div class="col-12">
                                     <div class="mt-3 mb-5">
                                         <button type="button" class="btn border border-success add-btn"
-                                            data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdropAttachment"><i
                                                 class="ri-add-line align-bottom me-1"></i> Add Attachment</button>
                                         <!-- Modal -->
                                         <div class="modal fade" id="staticBackdropAttachment" data-bs-backdrop="static"
@@ -898,12 +917,14 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="modal-footer mt-3">
-                                                        <button type="button" class="btn btn-sm border shadow-lg text-dark"
-                                                            data-bs-dismiss="modal">CLOSE</button>
-                                                        <button type="button"
-                                                            class="btn btn-sm text-light button-bg-custom">UPLOAD</button>
+                                                    <div class="col-lg-12">
+                                                        <div class="hstack gap-2 justify-content-end m-lg-4 m-md-4 m-sm-4">
+                                                            <button type="button" class="btn btn-light"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                                        </div>
                                                     </div>
+                                                    <!--end col-->
                                                 </div>
                                             </div>
                                         </div>
@@ -950,4 +971,10 @@
 @section('script')
     <script src="{{ URL::asset('assets/js/pages/form-wizard.init.js') }}"></script>
     <script src="{{ URL::asset('/assets/js/app.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/prismjs/prismjs.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.js/list.js.min.js') }}"></script>
+    <!-- listjs init -->
+    <script src="{{ URL::asset('assets/js/pages/listjs.init.js') }}"></script>
+    <!-- listjs init -->
+    <script src="{{ URL::asset('assets/js/pages/listjs.init.js') }}"></script>
 @endsection
