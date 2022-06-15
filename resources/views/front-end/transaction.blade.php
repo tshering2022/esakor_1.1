@@ -61,11 +61,11 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col">
-                            <h4 class="card-title">Inheritance || 1420005 || Initiated</h4>
+                            <h4 class="card-title">Inheritance || 1420005 || <span class="text-primary">Initiated</span></h4>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn border border-primary float-end" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalgridview">+VIEW ACTIVITY LOG</button>
+                            <button type="button" class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalgridview">+ VIEW ACTIVITY LOG</button>
                         </div>
                     </div>
                 </div>
@@ -157,15 +157,15 @@
                                     <div class="card mt-xl-3 mt-sm-3">
                                         <div class="card-body">
                                             <div id="customerList">
-                                                <div class="row g-4 mb-3 mt-sm-3">
+                                                <div class="row g-2 mb-3 mt-sm-3">
                                                     <div class="col-sm-auto">
                                                         <div>
-                                                            <button type="button" class="btn border border-primary add-btn"
+                                                            <button type="button" class="btn border border-primary add-btn m-lg-2 m-sm-2 m-md-2"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridtrans1"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
                                                                 Transferor/Transferee </button>
-                                                            <button type="button" class="btn border border-success add-btn"
+                                                            <button type="button" class="btn border border-success add-btn m-lg-2 m-sm-2 m-md-2"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridfirms2"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
@@ -300,7 +300,7 @@
                                                                                     class="form-control"
                                                                                     id="passwordInput"
                                                                                     placeholder="Transaction
-                                                                                                                                                                                        Party Qualification">
+                                                                                                                                                                                            Party Qualification">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -315,7 +315,7 @@
                                                                                     <input type="text"
                                                                                         class="form-control"
                                                                                         placeholder="Withness
-                                                                                                                                                                                            CID"
+                                                                                                                                                                                                CID"
                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
@@ -331,7 +331,7 @@
                                                                                     class="form-control"
                                                                                     id="passwordInput"
                                                                                     placeholder="Withness
-                                                                                                                                                                                        Name">
+                                                                                                                                                                                            Name">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -582,7 +582,7 @@
                                     <div class="row g-4 mt-xl-1 mt-lg-mt-1 mt-ms-2 mb-3">
                                         <div class="col-sm-auto mt-sm-2">
                                             <div>
-                                                <button type="button" class="btn border border-success add-btn"
+                                                <button type="button" class="btn border border-success add-btn text-success"
                                                     data-bs-toggle="modal" data-bs-target="#exampleModalgridaddtrans"><i
                                                         class="ri-add-line align-bottom me-1"></i>Add Transaction
                                                     Details</button>
@@ -769,7 +769,7 @@
                             <div class="row g-4 mb-3 mt-sm-3">
                                 <div class="col-sm-auto">
                                     <div>
-                                        <button type="button" class="btn border border-primary add-btn"
+                                        <button type="button" class="btn border border-success add-btn"
                                             data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i
                                                 class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
                                     </div>
@@ -858,7 +858,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="mt-3 mb-5">
-                                        <button type="button" class="btn border border-primary add-btn"
+                                        <button type="button" class="btn border border-success add-btn"
                                             data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i
                                                 class="ri-add-line align-bottom me-1"></i> Add Attachment</button>
                                         <!-- Modal -->
