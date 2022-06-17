@@ -1,9 +1,15 @@
 
-<?php $__env->startSection('title'); ?> <?php echo app('translator')->get('translation.basic-tables'); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->get('translation.basic-tables'); ?>
+<?php $__env->stopSection(); ?>
 <?php $__env->startSection('content'); ?>
     <?php $__env->startComponent('components.breadcrumb'); ?>
-        <?php $__env->slot('li_1'); ?> Tables <?php $__env->endSlot(); ?>
-        <?php $__env->slot('title'); ?> Basic Tables <?php $__env->endSlot(); ?>
+        <?php $__env->slot('li_1'); ?>
+            Tables
+        <?php $__env->endSlot(); ?>
+        <?php $__env->slot('title'); ?>
+            Basic Tables
+        <?php $__env->endSlot(); ?>
     <?php echo $__env->renderComponent(); ?>
     <div class="row">
         <div class="col-xl-6">
@@ -38,28 +44,32 @@
                                         <td>Bobby Davis</td>
                                         <td>October 15, 2021</td>
                                         <td>$2,300</td>
-                                        <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);" class="link-success">View More <i
+                                                    class="ri-arrow-right-line align-middle"></i></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#" class="fw-medium">#VZ2109</a></th>
                                         <td>Christopher Neal</td>
                                         <td>October 7, 2021</td>
                                         <td>$5,500</td>
-                                        <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);" class="link-success">View More <i
+                                                    class="ri-arrow-right-line align-middle"></i></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#" class="fw-medium">#VZ2108</a></th>
                                         <td>Monkey Karry</td>
                                         <td>October 5, 2021</td>
                                         <td>$2,420</td>
-                                        <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);" class="link-success">View More <i
+                                                    class="ri-arrow-right-line align-middle"></i></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#" class="fw-medium">#VZ2107</a></th>
                                         <td>James White</td>
                                         <td>October 2, 2021</td>
                                         <td>$7,452</td>
-                                        <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);" class="link-success">View More <i
+                                                    class="ri-arrow-right-line align-middle"></i></a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -67,7 +77,7 @@
                     </div>
 
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;table class=&quot;table table-nowrap&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;table class=&quot;table table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th scope=&quot;col&quot;&gt;ID&lt;/th&gt;
@@ -127,7 +137,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-striped</code> class to add zebra-striping to any table row within the &lt;tbody&gt;.</p>
+                    <p class="text-muted">Use <code>table-striped</code> class to add zebra-striping to any table row within
+                        the &lt;tbody&gt;.</p>
                     <div class="live-preview">
                         <div class="table-responsive">
                             <table class="table table-striped table-nowrap align-middle mb-0">
@@ -174,7 +185,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Striped Rows --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Striped Rows --&gt;
 &lt;table class=&quot;table table-striped&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -238,7 +249,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-dark</code> class to set dark color table body and <code>table-success</code> class to set success color table body respectively.
+                    <p class="text-muted">Use <code>table-dark</code> class to set dark color table body and
+                        <code>table-success</code> class to set success color table body respectively.
                         use <code>table-</code> class with different color variation to set required table body color.</p>
                     <div class="live-preview">
                         <div class="row">
@@ -281,7 +293,8 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </div><!--end col-->
+                            </div>
+                            <!--end col-->
 
                             <div class="col-xl-6">
                                 <div class="table-responsive mt-4 mt-xl-0">
@@ -302,11 +315,14 @@
                                                 <td>Basic Plan</td>
                                                 <td>$860</td>
                                                 <td>Nov 22, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="hstack gap-3 flex-wrap">
-                                                        <a href="javascript:void(0);" class="link-success fs-15"><i class="ri-edit-2-line"></i></a>
-                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i class="ri-delete-bin-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-success fs-15"><i
+                                                                class="ri-edit-2-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                class="ri-delete-bin-line"></i></a>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -315,11 +331,14 @@
                                                 <td>Premium Plan</td>
                                                 <td>$1200</td>
                                                 <td>Nov 10, 2021</td>
-                                                <td><i class="ri-close-circle-line align-middle text-danger"></i> Unsubscribed</td>
+                                                <td><i class="ri-close-circle-line align-middle text-danger"></i>
+                                                    Unsubscribed</td>
                                                 <td>
                                                     <div class="hstack gap-3 flex-wrap">
-                                                        <a href="javascript:void(0);" class="link-success fs-15"><i class="ri-edit-2-line"></i></a>
-                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i class="ri-delete-bin-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-success fs-15"><i
+                                                                class="ri-edit-2-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                class="ri-delete-bin-line"></i></a>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -328,11 +347,14 @@
                                                 <td>Basic Plan</td>
                                                 <td>$860</td>
                                                 <td>Nov 19, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="hstack gap-3 flex-wrap">
-                                                        <a href="javascript:void(0);" class="link-success fs-15"><i class="ri-edit-2-line"></i></a>
-                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i class="ri-delete-bin-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-success fs-15"><i
+                                                                class="ri-edit-2-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                class="ri-delete-bin-line"></i></a>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -341,22 +363,27 @@
                                                 <td>Corporate Plan</td>
                                                 <td>$1599</td>
                                                 <td>Nov 22, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="hstack gap-3 flex-wrap">
-                                                        <a href="javascript:void(0);" class="link-success fs-15"><i class="ri-edit-2-line"></i></a>
-                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i class="ri-delete-bin-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-success fs-15"><i
+                                                                class="ri-edit-2-line"></i></a>
+                                                        <a href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                class="ri-delete-bin-line"></i></a>
                                                     </div>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                            </div><!--end col-->
-                        </div><!--end row-->
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Dark --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Dark --&gt;
 &lt;table class=&quot;table table-dark table-striped table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -465,7 +492,8 @@
             </div><!-- end card -->
         </div>
         <!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-lg-12">
@@ -481,7 +509,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-hover</code> class to enable a hover state on table rows within a &lt;tbody&gt;.</p>
+                    <p class="text-muted">Use <code>table-hover</code> class to enable a hover state on table rows within a
+                        &lt;tbody&gt;.</p>
 
                     <div class="live-preview">
                         <div class="row">
@@ -492,7 +521,8 @@
                                             <tr>
                                                 <th scope="col" style="width: 25px;">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="checkAll" value="option1">
+                                                        <input class="form-check-input" type="checkbox" id="checkAll"
+                                                            value="option1">
                                                     </div>
                                                 </th>
                                                 <th scope="col">Order ID</th>
@@ -506,55 +536,68 @@
                                             <tr>
                                                 <th scope="row">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1" checked>
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox2" value="option1" checked>
                                                     </div>
                                                 </th>
                                                 <td>#541254265</td>
                                                 <td>Amezon</td>
                                                 <td>Cleo Carson</td>
                                                 <td>$4,521</td>
-                                                <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                                <td><a href="javascript:void(0);"><i
+                                                            class="ri-download-2-line fs-17 lh-1 align-middle"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1" checked>
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox3" value="option1" checked>
                                                     </div>
                                                 </th>
                                                 <td>#744145235</td>
                                                 <td>Shoppers</td>
                                                 <td>Juston Eichmann</td>
                                                 <td>$7,546</td>
-                                                <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                                <td><a href="javascript:void(0);"><i
+                                                            class="ri-download-2-line fs-17 lh-1 align-middle"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox4" value="option1">
                                                     </div>
                                                 </th>
                                                 <td>#9855126598</td>
                                                 <td>Flipkart</td>
                                                 <td>Bettie Johson</td>
                                                 <td>$1,350</td>
-                                                <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                                <td><a href="javascript:void(0);"><i
+                                                            class="ri-download-2-line fs-17 lh-1 align-middle"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            id="inlineCheckbox5" value="option1">
                                                     </div>
                                                 </th>
                                                 <td>#847512653</td>
                                                 <td>Shoppers</td>
                                                 <td>Maritza Blanda</td>
                                                 <td>$4,521</td>
-                                                <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                                <td><a href="javascript:void(0);"><i
+                                                            class="ri-download-2-line fs-17 lh-1 align-middle"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                            </div><!--end col-->
+                            </div>
+                            <!--end col-->
 
                             <div class="col-xl-6">
                                 <div class="table-responsive mt-4 mt-xl-0">
@@ -575,11 +618,14 @@
                                                 <td>Basic Plan</td>
                                                 <td>$860</td>
                                                 <td>Nov 22, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="form-check form-switch">
-                                                        <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck1" checked="">
-                                                        <label class="form-check-label ms-2" for="SwitchCheck1">Yes/No</label>
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="SwitchCheck1" checked="">
+                                                        <label class="form-check-label ms-2"
+                                                            for="SwitchCheck1">Yes/No</label>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -588,11 +634,14 @@
                                                 <td>Premium Plan</td>
                                                 <td>$1200</td>
                                                 <td>Nov 10, 2021</td>
-                                                <td><i class="ri-close-circle-line align-middle text-danger"></i> Unsubscribed</td>
+                                                <td><i class="ri-close-circle-line align-middle text-danger"></i>
+                                                    Unsubscribed</td>
                                                 <td>
                                                     <div class="form-check form-switch">
-                                                        <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck2">
-                                                        <label class="form-check-label ms-2" for="SwitchCheck2">Yes/No</label>
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="SwitchCheck2">
+                                                        <label class="form-check-label ms-2"
+                                                            for="SwitchCheck2">Yes/No</label>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -601,11 +650,14 @@
                                                 <td>Basic Plan</td>
                                                 <td>$860</td>
                                                 <td>Nov 19, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="form-check form-switch">
-                                                        <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck3">
-                                                        <label class="form-check-label ms-2" for="SwitchCheck3">Yes/No</label>
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="SwitchCheck3">
+                                                        <label class="form-check-label ms-2"
+                                                            for="SwitchCheck3">Yes/No</label>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -614,22 +666,27 @@
                                                 <td>Corporate Plan</td>
                                                 <td>$1599</td>
                                                 <td>Nov 22, 2021</td>
-                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i> Subscribed</td>
+                                                <td><i class="ri-checkbox-circle-line align-middle text-success"></i>
+                                                    Subscribed</td>
                                                 <td>
                                                     <div class="form-check form-switch">
-                                                        <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck4" checked="">
-                                                        <label class="form-check-label ms-2" for="SwitchCheck4">Yes/No</label>
+                                                        <input class="form-check-input" type="checkbox" role="switch"
+                                                            id="SwitchCheck4" checked="">
+                                                        <label class="form-check-label ms-2"
+                                                            for="SwitchCheck4">Yes/No</label>
                                                     </div>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                            </div><!--end col-->
-                        </div><!--end row-->
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Hoverable Rows --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Hoverable Rows --&gt;
 &lt;table class=&quot;table table-hover table-nowrap mb-0&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -768,7 +825,8 @@
             </div><!-- end card -->
         </div>
         <!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-12">
@@ -785,7 +843,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted mb-4">Use <code>table-card</code> class to show card-based table within a &lt;tbody&gt;.</p>
+                    <p class="text-muted mb-4">Use <code>table-card</code> class to show card-based table within a
+                        &lt;tbody&gt;.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive table-card">
@@ -794,7 +853,8 @@
                                     <tr>
                                         <th scope="col" style="width: 46px;">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cardtableCheck">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="cardtableCheck">
                                                 <label class="form-check-label" for="cardtableCheck"></label>
                                             </div>
                                         </th>
@@ -810,7 +870,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cardtableCheck01">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="cardtableCheck01">
                                                 <label class="form-check-label" for="cardtableCheck01"></label>
                                             </div>
                                         </td>
@@ -826,7 +887,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cardtableCheck02">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="cardtableCheck02">
                                                 <label class="form-check-label" for="cardtableCheck02"></label>
                                             </div>
                                         </td>
@@ -842,7 +904,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cardtableCheck03">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="cardtableCheck03">
                                                 <label class="form-check-label" for="cardtableCheck03"></label>
                                             </div>
                                         </td>
@@ -858,7 +921,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="cardtableCheck04">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="cardtableCheck04">
                                                 <label class="form-check-label" for="cardtableCheck04"></label>
                                             </div>
                                         </td>
@@ -876,7 +940,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;div class=&quot;table-responsive table-card&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;div class=&quot;table-responsive table-card&quot;&gt;
 &lt;table class=&quot;table table-nowrap mb-0&quot;&gt;
 &lt;thead class=&quot;table-light&quot;&gt;
 &lt;tr&gt;
@@ -991,7 +1055,8 @@
                                     <tr>
                                         <th scope="col" style="width: 42px;">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="activetableCheck">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="activetableCheck">
                                                 <label class="form-check-label" for="activetableCheck"></label>
                                             </div>
                                         </th>
@@ -1006,7 +1071,8 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="activetableCheck01" checked>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="activetableCheck01" checked>
                                                 <label class="form-check-label" for="activetableCheck01"></label>
                                             </div>
                                         </th>
@@ -1014,12 +1080,14 @@
                                         <td>Amezon</td>
                                         <td>Cleo Carson</td>
                                         <td>$4,521</td>
-                                        <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);"><i
+                                                    class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
                                     </tr>
                                     <tr class="table-active">
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="activetableCheck02" checked>
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="activetableCheck02" checked>
                                                 <label class="form-check-label" for="activetableCheck02"></label>
                                             </div>
                                         </th>
@@ -1027,12 +1095,14 @@
                                         <td>Shoppers</td>
                                         <td>Juston Eichmann</td>
                                         <td>$7,546</td>
-                                        <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);"><i
+                                                    class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="activetableCheck03">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="activetableCheck03">
                                                 <label class="form-check-label" for="activetableCheck03"></label>
                                             </div>
                                         </th>
@@ -1040,12 +1110,14 @@
                                         <td>Flipkart</td>
                                         <td>Bettie Johson</td>
                                         <td>$1,350</td>
-                                        <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);"><i
+                                                    class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="activetableCheck04">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="activetableCheck04">
                                                 <label class="form-check-label" for="activetableCheck04"></label>
                                             </div>
                                         </th>
@@ -1053,14 +1125,15 @@
                                         <td>Shoppers</td>
                                         <td class="table-active">Maritza Blanda</td>
                                         <td>$4,521</td>
-                                        <td><a href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
+                                        <td><a href="javascript:void(0);"><i
+                                                    class="ri-download-2-line fs-17 lh-1 align-middle"></i></a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Active Tables --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Active Tables --&gt;
 &lt;table class=&quot;table table-nowrap mb-0&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1151,7 +1224,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-bordered</code> class to show  borders on all sides of the table and cells.</p>
+                    <p class="text-muted">Use <code>table-bordered</code> class to show borders on all sides of the table
+                        and cells.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -1175,7 +1249,8 @@
                                         <td>$4,521</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink1"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1195,7 +1270,8 @@
                                         <td>$7,546</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink2"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1215,7 +1291,8 @@
                                         <td>$1,350</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink3" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink3"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1235,7 +1312,8 @@
                                         <td>$4,521</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink4" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink4"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1252,7 +1330,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Bordered Tables --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Bordered Tables --&gt;
 &lt;table class=&quot;table table-bordered table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1351,7 +1429,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-6">
@@ -1366,7 +1445,8 @@
                     </div>
                 </div><!-- end card header -->
                 <div class="card-body">
-                    <p class="text-muted">Use <code>border-</code> class with color variation class to set table border color.</p>
+                    <p class="text-muted">Use <code>border-</code> class with color variation class to set table border
+                        color.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -1390,7 +1470,8 @@
                                         <td>$4,521</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink5" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink5"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1410,7 +1491,8 @@
                                         <td>$7,546</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink6" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink6"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1430,7 +1512,8 @@
                                         <td>$1,350</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink7" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink7"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1450,7 +1533,8 @@
                                         <td>$4,521</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="#" role="button" id="dropdownMenuLink8" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a href="#" role="button" id="dropdownMenuLink8"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="ri-more-2-fill"></i>
                                                 </a>
 
@@ -1467,7 +1551,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Tables Border Colors --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Tables Border Colors --&gt;
 &lt;table class=&quot;table table-bordered border-secondary table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1574,7 +1658,8 @@
                     <div class="flex-shrink-0">
                         <div class="form-check form-switch form-switch-right form-switch-md">
                             <label for="tables-without-border-showcode" class="form-label text-muted">Show Code</label>
-                            <input class="form-check-input code-switcher" type="checkbox" id="tables-without-border-showcode">
+                            <input class="form-check-input code-switcher" type="checkbox"
+                                id="tables-without-border-showcode">
                         </div>
                     </div>
                 </div><!-- end card header -->
@@ -1603,8 +1688,10 @@
                                         <td><span class="badge badge-soft-success">Active</span></td>
                                         <td>
                                             <div class="hstack gap-3 fs-15">
-                                                <a href="javascript:void(0);" class="link-primary"><i class="ri-settings-4-line"></i></a>
-                                                <a href="javascript:void(0);" class="link-danger"><i class="ri-delete-bin-5-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-primary"><i
+                                                        class="ri-settings-4-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-danger"><i
+                                                        class="ri-delete-bin-5-line"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -1616,8 +1703,10 @@
                                         <td><span class="badge badge-soft-success">Active</span></td>
                                         <td>
                                             <div class="hstack gap-3 fs-15">
-                                                <a href="javascript:void(0);" class="link-primary"><i class="ri-settings-4-line"></i></a>
-                                                <a href="javascript:void(0);" class="link-danger"><i class="ri-delete-bin-5-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-primary"><i
+                                                        class="ri-settings-4-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-danger"><i
+                                                        class="ri-delete-bin-5-line"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -1629,8 +1718,10 @@
                                         <td><span class="badge badge-soft-success">Active</span></td>
                                         <td>
                                             <div class="hstack gap-3 fs-15">
-                                                <a href="javascript:void(0);" class="link-primary"><i class="ri-settings-4-line"></i></a>
-                                                <a href="javascript:void(0);" class="link-danger"><i class="ri-delete-bin-5-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-primary"><i
+                                                        class="ri-settings-4-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-danger"><i
+                                                        class="ri-delete-bin-5-line"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -1642,8 +1733,10 @@
                                         <td><span class="badge badge-soft-danger">Disabled</span></td>
                                         <td>
                                             <div class="hstack gap-3 fs-15">
-                                                <a href="javascript:void(0);" class="link-primary"><i class="ri-settings-4-line"></i></a>
-                                                <a href="javascript:void(0);" class="link-danger"><i class="ri-delete-bin-5-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-primary"><i
+                                                        class="ri-settings-4-line"></i></a>
+                                                <a href="javascript:void(0);" class="link-danger"><i
+                                                        class="ri-delete-bin-5-line"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -1652,7 +1745,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Tables Without Borders --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Tables Without Borders --&gt;
 &lt;table class=&quot;table table-borderless table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1723,7 +1816,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-6">
@@ -1739,7 +1833,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-sm</code> class to create any table more compact by cutting all cell padding in half.</p>
+                    <p class="text-muted">Use <code>table-sm</code> class to create any table more compact by cutting all
+                        cell padding in half.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -1779,8 +1874,10 @@
                                     </tr>
                                     <tr>
                                         <td class="fw-medium">05</td>
-                                        <td>Applications Engineer</td><td>
-                                        <span class="badge badge-soft-success">Done</span></td>
+                                        <td>Applications Engineer</td>
+                                        <td>
+                                            <span class="badge badge-soft-success">Done</span>
+                                        </td>
                                         <td>Leslie Alexander</td>
                                     </tr>
                                 </tbody>
@@ -1788,7 +1885,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Small Tables --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Small Tables --&gt;
 &lt;table class=&quot;table table-sm table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1850,7 +1947,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-light</code> or <code>table-dark</code> class to create &lt;thead&gt; appear light or dark.</p>
+                    <p class="text-muted">Use <code>table-light</code> or <code>table-dark</code> class to create
+                        &lt;thead&gt; appear light or dark.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -1873,7 +1971,9 @@
                                         <td>$450</td>
                                         <td>
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-success" role="progressbar"
+                                                    style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td><a href="javascript:void(0);" class="link-success">Confirmed</a></td>
@@ -1885,7 +1985,9 @@
                                         <td>$860</td>
                                         <td>
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning" role="progressbar"
+                                                    style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td><a href="javascript:void(0);" class="link-warning">Waiting</a></td>
@@ -1897,7 +1999,9 @@
                                         <td>$450</td>
                                         <td>
                                             <div class="progress progress-sm">
-                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar bg-warning" role="progressbar"
+                                                    style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
                                             </div>
                                         </td>
                                         <td><a href="javascript:void(0);" class="link-warning">Waiting</a></td>
@@ -1907,7 +2011,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Head --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Head --&gt;
 &lt;table class=&quot;table align-middle table-nowrap mb-0&quot;&gt;
 &lt;thead class=&quot;table-light&quot;&gt;
 &lt;tr&gt;
@@ -1962,7 +2066,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-6">
@@ -1978,7 +2083,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Add <code>&lt;tbody&gt;</code> attribute to group footer content in an HTML table.</p>
+                    <p class="text-muted">Add <code>&lt;tbody&gt;</code> attribute to group footer content in an HTML
+                        table.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -2025,7 +2131,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Foot --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Foot --&gt;
 &lt;table class=&quot;table table-nowrap&quot;&gt;
 &lt;thead class=&quot;table-light &quot;&gt;
 &lt;tr&gt;
@@ -2084,7 +2190,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">You can also put the <code>&lt;caption&gt;</code> attribute on the top of the table with <code>caption-top</code> class.</p>
+                    <p class="text-muted">You can also put the <code>&lt;caption&gt;</code> attribute on the top of the
+                        table with <code>caption-top</code> class.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -2122,7 +2229,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Captions --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Captions --&gt;
 &lt;table class=&quot;table caption-top table-nowrap&quot;&gt;
 &lt;thead class=&quot;table-light&quot;&gt;
 &lt;tr&gt;
@@ -2167,7 +2274,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-6">
@@ -2183,7 +2291,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Example of basic table nesting. Border styles, active styles, and table variants are not inherited by nested tables.</p>
+                    <p class="text-muted">Example of basic table nesting. Border styles, active styles, and table variants
+                        are not inherited by nested tables.</p>
                     <div class="live-preview">
                         <div class="table-responsive">
                             <table class="table table-nowrap mb-0">
@@ -2265,7 +2374,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Nesting --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Table Nesting --&gt;
 &lt;table class=&quot;table table-nowrap&quot;&gt;
 &lt;thead class=&quot;table-light&quot;&gt;
 &lt;tr&gt;
@@ -2360,7 +2469,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-</code> class with below-mentioned color variation class within &lt;tr&gt; to set color on table row.</p>
+                    <p class="text-muted">Use <code>table-</code> class with below-mentioned color variation class within
+                        &lt;tr&gt; to set color on table row.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -2433,7 +2543,7 @@
                         </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Variants --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Variants --&gt;
 &lt;table class=&quot;table table-nowrap&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2504,7 +2614,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-12">
@@ -2521,7 +2632,10 @@
 
                 <div class="card-body">
 
-                    <p class="text-muted">Table cells of <code>&lt;thead&gt;</code> are always vertical aligned to the bottom. Table cells in  <code>&lt;tbody&gt;</code> inherit their alignment from <code>&lt;table&gt;</code> and are aligned to the the top by default. Use the vertical align classes to re-align where needed.</p>
+                    <p class="text-muted">Table cells of <code>&lt;thead&gt;</code> are always vertical aligned to the
+                        bottom. Table cells in <code>&lt;tbody&gt;</code> inherit their alignment from
+                        <code>&lt;table&gt;</code> and are aligned to the the top by default. Use the vertical align classes
+                        to re-align where needed.</p>
 
                     <div class="live-preview">
                         <div class="table-responsive">
@@ -2539,26 +2653,35 @@
                                         <td>This cell inherits <code>vertical-align: middle;</code> from the table</td>
                                         <td>This cell inherits <code>vertical-align: middle;</code> from the table</td>
                                         <td>This cell inherits <code>vertical-align: middle;</code> from the table</td>
-                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.  Use the vertical align classes to re-align where needed. inherit their alignment from and are aligned to the the top by default.</td>
+                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical
+                                            space, to demonstrate how the vertical alignment works in the preceding cells.
+                                            Use the vertical align classes to re-align where needed. inherit their alignment
+                                            from and are aligned to the the top by default.</td>
                                     </tr>
                                     <tr class="align-bottom">
                                         <td>This cell inherits <code>vertical-align: bottom;</code> from the table row</td>
                                         <td>This cell inherits <code>vertical-align: bottom;</code> from the table row</td>
                                         <td>This cell inherits <code>vertical-align: bottom;</code> from the table row</td>
-                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.  Use the vertical align classes to re-align where needed. inherit their alignment from and are aligned to the the top by default.</td>
+                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical
+                                            space, to demonstrate how the vertical alignment works in the preceding cells.
+                                            Use the vertical align classes to re-align where needed. inherit their alignment
+                                            from and are aligned to the the top by default.</td>
                                     </tr>
                                     <tr>
                                         <td>This cell inherits <code>vertical-align: middle;</code> from the table</td>
                                         <td>This cell inherits <code>vertical-align: middle;</code> from the table</td>
                                         <td class="align-top">This cell is aligned to the top.</td>
-                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.  Use the vertical align classes to re-align where needed. inherit their alignment from and are aligned to the the top by default.</td>
+                                        <td>This here is some placeholder text, intended to take up quite a bit of vertical
+                                            space, to demonstrate how the vertical alignment works in the preceding cells.
+                                            Use the vertical align classes to re-align where needed. inherit their alignment
+                                            from and are aligned to the the top by default.</td>
                                     </tr>
                                 </tbody>
                             </table>
-                          </div>
+                        </div>
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;!-- Vertical alignment --&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;!-- Vertical alignment --&gt;
 &lt;div class=&quot;table-responsive&quot;&gt;
 &lt;table class=&quot;table align-middle&quot;&gt;
 &lt;thead&gt;
@@ -2586,7 +2709,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 
     <div class="row">
         <div class="col-xl-12">
@@ -2602,7 +2726,8 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                    <p class="text-muted">Use <code>table-responsive</code> class to make any table responsive across all viewports. Responsive tables allow tables to be scrolled horizontally with ease.</p>
+                    <p class="text-muted">Use <code>table-responsive</code> class to make any table responsive across all
+                        viewports. Responsive tables allow tables to be scrolled horizontally with ease.</p>
                     <div class="live-preview">
                         <div class="table-responsive">
                             <table class="table align-middle table-nowrap mb-0">
@@ -2610,7 +2735,8 @@
                                     <tr>
                                         <th scope="col" style="width: 42px;">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck">
                                                 <label class="form-check-label" for="responsivetableCheck"></label>
                                             </div>
                                         </th>
@@ -2626,17 +2752,20 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck01">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck01">
                                                 <label class="form-check-label" for="responsivetableCheck01"></label>
                                             </div>
                                         </th>
                                         <td><a href="#" class="fw-medium">#VZ2110</a></td>
                                         <td>10 Oct, 14:47</td>
-                                        <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                        <td class="text-success"><i
+                                                class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-3.jpg')); ?>" alt="" class="avatar-xs rounded-circle" />
+                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-3.jpg')); ?>"
+                                                        alt="" class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     Jordan Kennedy
@@ -2649,17 +2778,20 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck02">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck02">
                                                 <label class="form-check-label" for="responsivetableCheck02"></label>
                                             </div>
                                         </th>
                                         <td><a href="#" class="fw-medium">#VZ2109</a></td>
                                         <td>17 Oct, 02:10</td>
-                                        <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                        <td class="text-success"><i
+                                                class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-4.jpg')); ?>" alt="" class="avatar-xs rounded-circle" />
+                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-4.jpg')); ?>"
+                                                        alt="" class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     Jackson Graham
@@ -2672,17 +2804,20 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck03">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck03">
                                                 <label class="form-check-label" for="responsivetableCheck03"></label>
                                             </div>
                                         </th>
                                         <td><a href="#" class="fw-medium">#VZ2108</a></td>
                                         <td>26 Oct, 08:20</td>
-                                        <td class="text-primary"><i class="ri-refresh-line fs-17 align-middle"></i> Refunded</td>
+                                        <td class="text-primary"><i class="ri-refresh-line fs-17 align-middle"></i>
+                                            Refunded</td>
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-5.jpg')); ?>" alt="" class="avatar-xs rounded-circle" />
+                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-5.jpg')); ?>"
+                                                        alt="" class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     Lauren Trujillo
@@ -2695,17 +2830,20 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck04">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck04">
                                                 <label class="form-check-label" for="responsivetableCheck04"></label>
                                             </div>
                                         </th>
                                         <td><a href="#" class="fw-medium">#VZ2107</a></td>
                                         <td>02 Nov, 04:52</td>
-                                        <td class="text-danger"><i class="ri-close-circle-line fs-17 align-middle"></i> Cancel</td>
+                                        <td class="text-danger"><i class="ri-close-circle-line fs-17 align-middle"></i>
+                                            Cancel</td>
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-6.jpg')); ?>" alt="" class="avatar-xs rounded-circle" />
+                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-6.jpg')); ?>"
+                                                        alt="" class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     Curtis Weaver
@@ -2718,17 +2856,20 @@
                                     <tr>
                                         <th scope="row">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck05">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="responsivetableCheck05">
                                                 <label class="form-check-label" for="responsivetableCheck05"></label>
                                             </div>
                                         </th>
                                         <td><a href="#" class="fw-medium">#VZ2106</a></td>
                                         <td>10 Nov, 07:20</td>
-                                        <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                        <td class="text-success"><i
+                                                class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                         <td>
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-1.jpg')); ?>" alt="" class="avatar-xs rounded-circle" />
+                                                    <img src="<?php echo e(URL::asset('assets/images/users/avatar-1.jpg')); ?>"
+                                                        alt="" class="avatar-xs rounded-circle" />
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     Jason schuller
@@ -2751,7 +2892,7 @@
                         <!-- end table responsive -->
                     </div>
                     <div class="d-none code-view">
-<pre class="language-markup" style="height: 275px;"><code>&lt;div class=&quot;table-responsive&quot;&gt;
+                        <pre class="language-markup" style="height: 275px;"><code>&lt;div class=&quot;table-responsive&quot;&gt;
 &lt;table class=&quot;table align-middle mb-0&quot;&gt;
 &lt;thead class=&quot;table-light&quot;&gt;
 &lt;tr&gt;
@@ -2900,7 +3041,8 @@
                 </div><!-- end card-body -->
             </div><!-- end card -->
         </div><!-- end col -->
-    </div><!--end row-->
+    </div>
+    <!--end row-->
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('script'); ?>
     <script src="<?php echo e(URL::asset('assets/libs/prismjs/prismjs.min.js')); ?>"></script>

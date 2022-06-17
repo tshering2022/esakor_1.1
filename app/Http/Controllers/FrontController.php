@@ -21,6 +21,11 @@ class FrontController extends Controller
     {
         return view('front-end.transaction');
     }
+    //transaction table
+    public function transactionview()
+    {
+        return view('front-end.transaction-table');
+    }
 
 
     /**

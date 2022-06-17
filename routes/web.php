@@ -21,6 +21,8 @@ Route::get('/root', [App\Http\Controllers\HomeController::class, 'root'])->name(
 
 //transacrion
 Route::get('/transaction', [App\Http\Controllers\FrontController::class, 'transaction'])->name('transaction');
+//transacrion table
+Route::get('/transaction-table', [App\Http\Controllers\FrontController::class, 'transactionview'])->name('transactionview');
 
 
 // Update User Details
