@@ -13,8 +13,8 @@
             <div class="card">
                 <div class="card-body form-steps">
                     <form action="#">
-                        <div id="custom-progress-bar" class="progress-nav mb-4">
-                            <div class="progress" style="height: 1px;">
+                        <div id="custom-progress-bar" class="progress-nav mb-2">
+                            <div class="progress" style="height:1px;">
                                 <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -61,16 +61,17 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col">
-                            <h4 class="card-title">Inheritance || 1420005 || <span
-                                    class="text-primary">Initiated</span></h4>
+                        <div class="col-md-6">
+                            <h4 class="m-xl-3 m-md-3 m-sm-3 justify-content-center">Inheritance || 1420005 || <span
+                                    class="text-primary">Initiated</span>
+                            </h4>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <button type="button"
-                                class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end m-xl-2 m-md-2 m-sm-2"
+                                class="btn border border-primary text-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-md-end m-xl-2 m-md-2 m-sm-3"
                                 data-bs-toggle="modal" data-bs-target="#exampleModalgridview">+ VIEW ACTIVITY LOG</button>
                             <button type="button"
-                                class="btn border border-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-end m-xl-2 m-md-2 m-sm-2"
+                                class="btn border border-primary text-primary text-primary text-shadow shadow-sm p-2 mb-1 bg-white rounded float-md-end float-sm-end m-xl-2 m-md-2 m-sm-4"
                                 data-bs-toggle="modal" data-bs-target="#exampleModalgridview33"><i
                                     class="ri-home-4-line pe-1 text-soso"></i> MORTGAGE DECLARATION
                                 FORM</button>
@@ -146,36 +147,44 @@
                                     <!-- Block level -->
                                     <div class="row mt-xl-4 mt-md-4 mt-sm-3">
                                         <div class="col">
-                                            <p class="mb-1 font-weight-bold">Transaction No:<strong>142005</strong></p>
+                                            <p class="mb-1 font-weight-bold">Transaction No:<strong
+                                                    class="p-xl-2 p-md-2 p-sm-2">142005</strong></p>
                                         </div>
                                         <div class="col">
-                                            <p class="mb-1">Transaction Type:<strong>Inheritance</strong></p>
+                                            <p class="mb-1">Transaction Type:<strong
+                                                    class="p-xl-2 p-md-2 p-sm-2">Inheritance</strong></p>
                                         </div>
                                     </div>
                                     <!-- Block level -->
                                     <div class="row">
                                         <div class="col">
-                                            <p class="mb-1">Application Date:<strong>25/08/2022</strong></p>
+                                            <p class="mb-1">Application Date:<strong
+                                                    class="p-xl-2 p-md-2 p-sm-2">25/08/2022</strong></p>
                                         </div>
                                         <div class="col">
-                                            <p class="mb-1">Throme/Dzongkhag:<strong>Thimphu</strong></p>
+                                            <p class="mb-1">Throme/Dzongkhag:<strong
+                                                    class="p-xl-2 p-md-2 p-sm-2">Thimphu</strong></p>
                                         </div>
                                     </div>
                                     
                                     <div class="card mt-xl-3 mt-sm-3">
                                         <div class="card-body">
                                             <div id="customerList">
-                                                <div class="row g-2 mb-3 mt-sm-3">
-                                                    <div class="col-sm-auto">
-                                                        <div>
-                                                            <button type="button"
-                                                                class="btn border border-primary add-btn m-lg-2 m-sm-2 m-md-2"
+                                                <div class="row" style="--bs-gutter-x: 1rem">
+                                                    <div class="col-md-3">
+                                                        <div class="d-flex mb-3">
+                                                            <button
+                                                                class="btn border border-primary btn btn-info add-btn flex-fill"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridtrans1"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
-                                                                Transferor/Transferee </button>
-                                                            <button type="button"
-                                                                class="btn border border-success add-btn m-lg-2 m-sm-2 m-md-2"
+                                                                Transferor/Transferee</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div class="d-flex mb-3">
+                                                            <button
+                                                                class="btn border border-primary btn btn-info add-btn flex-fill"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridfirms2"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
@@ -184,7 +193,6 @@
                                                     </div>
                                                 </div>
                                                 
-
                                                 <!-- Grids in modals -->
                                                 <div class="modal fade" id="exampleModalgridtrans1" tabindex="-1"
                                                     aria-labelledby="exampleModalgridLabel" aria-modal="true">
@@ -198,6 +206,11 @@
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body">
+                                                                <div class="">
+                                                                    <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                                      NOTE:If CID NO. is valid other details(Name,DoB and Gender) will be fetched automatically.
+                                                                    </div>
+                                                                </div>
                                                                 <form action="javascript:void(0);">
                                                                     <div class="row g-3">
                                                                         <div class="col-xxl-6">
@@ -207,7 +220,7 @@
                                                                                 </label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="firstName"
-                                                                                    placeholder="Citizen ID No">
+                                                                                    placeholder="Citizen ID No Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -218,7 +231,7 @@
                                                                                     Birth</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="lastName"
-                                                                                    placeholder="Date of Birth">
+                                                                                    placeholder="Date of Birth Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -228,7 +241,7 @@
                                                                                     class="form-label">Name</label>
                                                                                 <input type="email" class="form-control"
                                                                                     id="emailInput"
-                                                                                    placeholder="Enter Name">
+                                                                                    placeholder="Enter Name Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -237,7 +250,8 @@
                                                                                 <label for="emailInput"
                                                                                     class="form-label">Gender</label>
                                                                                 <input type="email" class="form-control"
-                                                                                    id="emailInput" placeholder="Gender">
+                                                                                    id="emailInput"
+                                                                                    placeholder="Gender Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -251,7 +265,7 @@
                                                                                         id="basic-addon1">+975</span>
                                                                                     <input type="text"
                                                                                         class="form-control"
-                                                                                        placeholder="Mobile No"
+                                                                                        placeholder="Mobile No Required"
                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
@@ -264,7 +278,8 @@
                                                                                     class="form-label">Email</label>
                                                                                 <input type="password"
                                                                                     class="form-control"
-                                                                                    id="passwordInput" placeholder="Email">
+                                                                                    id="passwordInput"
+                                                                                    placeholder="Email Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -276,7 +291,7 @@
                                                                                 <input type="password"
                                                                                     class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Transaction Party">
+                                                                                    placeholder="Transaction Party Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -286,7 +301,8 @@
                                                                                     class="form-label">Thram</label>
                                                                                 <input type="password"
                                                                                     class="form-control"
-                                                                                    id="passwordInput" placeholder="Thram">
+                                                                                    id="passwordInput"
+                                                                                    placeholder="Thram Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -297,7 +313,7 @@
                                                                                 <input type="password"
                                                                                     class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Ownership">
+                                                                                    placeholder="Ownership Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -310,8 +326,8 @@
                                                                                 <input type="password"
                                                                                     class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Transaction
-                                                                                                                                                                                                                                        Party Qualification">
+                                                                                    placeholder="Transaction Required">
+                                                                                
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -325,9 +341,8 @@
                                                                                         id="basic-addon1">CID#</span>
                                                                                     <input type="text"
                                                                                         class="form-control"
-                                                                                        placeholder="Withness
-                                                                                                                                                                                                                                            CID"
-                                                                                        aria-label="Username"
+                                                                                        placeholder="Withness CID Required"
+                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
                                                                             </div>
@@ -341,8 +356,7 @@
                                                                                 <input type="password"
                                                                                     class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Withness
-                                                                                                                                                                                                                                        Name">
+                                                                                    placeholder="Withness Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -377,6 +391,11 @@
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body">
+                                                                <div class="">
+                                                                    <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                                      NOTE:If CID NO. is valid other details(Name,DoB and Gender) will be fetched automatically.
+                                                                    </div>
+                                                                </div>
                                                                 <form action="javascript:void(0);">
                                                                     <div class="row g-3">
                                                                         <div class="col-xxl-6">
@@ -401,21 +420,21 @@
                                                                                 </label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="lastName"
-                                                                                    placeholder="Name of Thram Owner(Dzo)">
+                                                                                    placeholder="Name of Thram Owner(Dzo) Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
                                                                         <div class="col-xxl-6">
                                                                             <div>
-                                                                                <label for="lastName"
-                                                                                    class="form-label"> Mobile No
+                                                                                <label for="lastName" class="form-label">
+                                                                                    Mobile No
                                                                                 </label>
                                                                                 <div class="input-group">
                                                                                     <span class="input-group-text"
                                                                                         id="basic-addon1">+975</span>
                                                                                     <input type="text"
                                                                                         class="form-control"
-                                                                                        placeholder="Mobile No"
+                                                                                        placeholder="Mobile No Required"
                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
@@ -428,7 +447,7 @@
                                                                                     class="form-label">Email</label>
                                                                                 <input type="email" class="form-control"
                                                                                     id="emailInput"
-                                                                                    placeholder="Enter your email">
+                                                                                    placeholder="Email Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -439,7 +458,7 @@
                                                                                     Party</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Transaction Party">
+                                                                                    placeholder="Transaction Party Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -449,7 +468,7 @@
                                                                                     class="form-label">Thram</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Thram No">
+                                                                                    placeholder="Thram No Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -459,7 +478,7 @@
                                                                                     class="form-label">Ownership</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Thram No">
+                                                                                    placeholder="Thram No Required">
                                                                             </div>
                                                                         </div>
                                                                         <!--end col-->
@@ -473,7 +492,7 @@
                                                                                         id="basic-addon1">+975</span>
                                                                                     <input type="text"
                                                                                         class="form-control"
-                                                                                        placeholder="Withnes CID"
+                                                                                        placeholder="Withnes CID Required"
                                                                                         aria-label="Username"
                                                                                         aria-describedby="basic-addon1">
                                                                                 </div>
@@ -486,7 +505,7 @@
                                                                                     Name</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Withnes Name">
+                                                                                    placeholder="Withnes Name Required">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-xxl-6">
@@ -496,7 +515,7 @@
                                                                                     DOB</label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="passwordInput"
-                                                                                    placeholder="Withnes DOB">
+                                                                                    placeholder="Withnes DOB Required">
                                                                             </div>
                                                                         </div>
 
@@ -586,8 +605,10 @@
                                     
                                 </div>
                                 <div class="d-flex justify-content-end">
-                                    <button type="button" class="btn btn-primary m-lx-2 m-md-2 m-sm-2">BACK</button>
-                                    <button type="button" class="btn btn-secondary m-lx-2 m-md-2 m-sm-2">NEXT</button>
+                                    <button type="button" class="btn btn-primary m-xl-2 m-lg-2 m-sm-2"
+                                        style="margin-right:16px">BACK</button>
+                                    <button type="button" class="btn btn-secondary m-xl-2 m-lg-2 m-sm-2"
+                                        style="margin-right:16px">NEXT</button>
                                 </div>
                             </div>
                             <!-- end tab pane -->
@@ -600,7 +621,7 @@
                                         <div class="col-sm-auto mt-sm-2">
                                             <div>
                                                 <button type="button"
-                                                    class="btn border border-success add-btn text-success"
+                                                    class="btn border border-primary  btn btn-info add-btn "
                                                     data-bs-toggle="modal" data-bs-target="#exampleModalgridaddtrans"><i
                                                         class="ri-add-line align-bottom me-1"></i>Add Transaction
                                                     Details</button>
@@ -621,6 +642,11 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
+                                                    <div class="">
+                                                        <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                         NOTE:if you are transfering the whole plot enter the same area and please use this remark section to help the officials at Thromde/Dzongkhag to understand what you are trying to do.
+                                                        </div>
+                                                    </div>
                                                     
                                                     <div class="row">
                                                         <div class="col-lg-12">
@@ -639,7 +665,7 @@
                                                                                         <input type="text"
                                                                                             class="form-control"
                                                                                             id="firstName"
-                                                                                            placeholder="Nature of Transaction">
+                                                                                            placeholder="Nature of Transaction Required">
                                                                                     </div>
                                                                                 </div>
                                                                                 <!--end col-->
@@ -651,7 +677,7 @@
                                                                                         <input type="text"
                                                                                             class="form-control"
                                                                                             id="lastName"
-                                                                                            placeholder="Transaction Thram">
+                                                                                            placeholder="Transaction Thram Required">
                                                                                     </div>
                                                                                 </div>
                                                                                 <!--end col-->
@@ -746,8 +772,7 @@
                                         </thead>
                                         <tbody class="list form-check-all">
                                             <tr>
-                                                <td class="id" style="display:none;"><a
-                                                        href="javascript:void(0);"
+                                                <td class="id" style="display:none;"><a href="javascript:void(0);"
                                                         class="fw-medium link-primary">#VZ2101</a></td>
                                                 <td class="customer_name">Mary Cousar</td>
                                                 <td class="email">marycousar@velzon.com</td>
@@ -774,12 +799,13 @@
                             </div>
 
                             <div class="d-flex justify-content-end">
-                                <button type="button" class="btn btn-primary m-lx-2 m-md-2 m-sm-2">BACK</button>
-                                <button type="button" class="btn btn-secondary m-lx-2 m-md-2 m-sm-2">NEXT</button>
+                                <button type="button" class="btn btn-primary m-lx-2 m-md-2 m-sm-2"
+                                    style="margin-right:16px">BACK</button>
+                                <button type="button" class="btn btn-secondary m-lx-2 m-md-2 m-sm-2"
+                                    style="margin-right:16px">NEXT</button>
                             </div>
                         </div>
                         
-
                         
                         <div class="tab-pane fade" id="pills-success3" role="tabpanel"
                             aria-labelledby="pills-success-tab">
@@ -787,7 +813,7 @@
                             <div class="row g-4 mb-3 mt-sm-3">
                                 <div class="col-sm-auto">
                                     <div>
-                                        <button type="button" class="btn border border-success add-btn"
+                                        <button type="button" class="btn border border-primary  btn btn-info add-btn"
                                             data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i
                                                 class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
                                     </div>
@@ -802,7 +828,8 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h5 class="modal-title d-flex" id="staticBackdropLabel"><i
-                                                    data-feather="activity" class="ri-add-line fs-6 pe-1"></i>Add valuation
+                                                    data-feather="activity" class="ri-add-line fs-6 pe-1"></i>Add
+                                                valuation
                                             </h5>
 
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -810,8 +837,8 @@
                                         </div>
                                         <div class="modal-body">
                                             <div class="">
-                                                <div class="col-12 bg-success m-0">
-                                                    hdjfhjkhdkjfhkdsjfhkjh
+                                                <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                  NOTE:if there is no land and flat/building cost, you can enter 0(Zero).if there is only one plot under the thram and transfering the whole plot,please select keep same thram number.
                                                 </div>
                                             </div>
                                             <form action="#">
@@ -877,7 +904,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="mt-3 mb-5">
-                                        <button type="button" class="btn border border-success add-btn"
+                                        <button type="button" class="btn border border-primary  btn btn-info add-btn"
                                             data-bs-toggle="modal" data-bs-target="#staticBackdropAttachment"><i
                                                 class="ri-add-line align-bottom me-1"></i> Add Attachment</button>
                                         <!-- Modal -->
@@ -890,13 +917,14 @@
                                                         <h5 class="modal-title" id="staticBackdropLabel"><i
                                                                 class="ri-add-line fs-6"></i>Add
                                                             Attachment</h5>
-                                                        <button type="button" class="btn-close"
-                                                            data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
                                                         <div class="">
-                                                            <div class="col-12 bg-success m-0">
-                                                                hdjfhjkhdkjfhkdsjfhkjh
+                                                            <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                             Note:System will accept file size of only 2MB(Size per File/Attachment).Comparess your files if size is above 2MB.We recommend you to upload your files in PDF format.
+                                                             Allowed File Types:jpg,png, jpeg, pdf, xlsx, tif, xml, raw,see,fld,dwg,csv.
                                                             </div>
                                                         </div>
                                                         <div class="mt-3">
@@ -933,13 +961,16 @@
                             </div>
                             
                             <div class="d-flex justify-content-end">
-                                <button type="button" class="btn btn-primary m-lx-2 m-md-2 m-sm-2">BACK</button>
-                                <button type="button" class="btn btn-secondary m-lx-2 m-md-2 m-sm-2">COMPLETE</button>
+                                <button type="button" class="btn btn-primary m-lx-2 m-md-2 m-sm-2"
+                                    style="margin-right:16px">BACK</button>
+                                <button type="button" class="btn btn-secondary m-lx-2 m-md-2 m-sm-2"
+                                    style="margin-right:16px">COMPLETE</button>
                             </div>
                         </div>
                         <!-- end three step button -->
                         
-                        <div class="tab-pane fade" id="pills-success" role="tabpanel" aria-labelledby="pills-success-tab">
+                        <div class="tab-pane fade" id="pills-success" role="tabpanel"
+                            aria-labelledby="pills-success-tab">
                             <div>
                                 <div class="text-center">
 
