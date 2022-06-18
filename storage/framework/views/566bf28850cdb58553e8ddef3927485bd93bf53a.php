@@ -23,7 +23,7 @@
         <div class="main-content">
             <div class="page-content">
                 <!-- Start content -->
-                <div class="container">
+                <div class="container-fluid">
                     <?php echo $__env->yieldContent('content'); ?>
                 </div> <!-- content -->
             </div>

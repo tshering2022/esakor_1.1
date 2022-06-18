@@ -54,7 +54,6 @@
         </div>
     </div>
     {{-- end of row --}}
-
     {{-- transaction view --}}
     <div class="row">
         <div class="col-xl-12">
@@ -100,13 +99,16 @@
                                                         <table class="table align-middle table-nowrap" id="customerTable">
                                                             <thead class="table-light">
                                                                 <tr>
-                                                                    <th class="sort" data-sort="customer_name">#
+                                                                    <th data-sort="customer_name">#
                                                                     </th>
-                                                                    <th class="sort" data-sort="email">Date</th>
-                                                                    <th class="sort" data-sort="phone">Author</th>
-                                                                    <th class="sort" data-sort="date">Role</th>
-                                                                    <th class="sort" data-sort="status">Satus</th>
-                                                                    <th class="sort" data-sort="date">Remarks</th>
+                                                                    <th data-sort="email">Date</th>
+                                                                    <th data-sort="phone">Author
+                                                                    </th>
+                                                                    <th data-sort="date">Role</th>
+                                                                    <th data-sort="status">Satus
+                                                                    </th>
+                                                                    <th data-sort="date">Remarks
+                                                                    </th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody class="list form-check-all">
@@ -173,20 +175,18 @@
                                         <div class="card-body">
                                             <div id="customerList">
                                                 <div class="row" style="--bs-gutter-x: 1rem">
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-3">
                                                         <div class="d-flex mb-3">
-                                                            <button
-                                                                class="btn btn-success add-btn flex-fill"
+                                                            <button class="btn btn-success add-btn flex-fill"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridtrans1"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
                                                                 Transferor/Transferee</button>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-4">
                                                         <div class="d-flex mb-3">
-                                                            <button
-                                                                class="btn btn-success add-btn flex-fill"
+                                                            <button class="btn btn-success add-btn flex-fill"
                                                                 data-bs-toggle="modal"
                                                                 data-bs-target="#exampleModalgridfirms2"><i
                                                                     class="ri-add-line align-bottom me-1"></i>Add
@@ -210,7 +210,8 @@
                                                             <div class="modal-body">
                                                                 <div class="">
                                                                     <div class="col-12 p-3 mb-2 btn-success text-white">
-                                                                        NOTE:If CID NO. is valid other details(Name,DoB
+                                                                        NOTE:If CID NO. is valid other
+                                                                        details(Name,DoB
                                                                         and Gender) will be fetched automatically.
                                                                     </div>
                                                                 </div>
@@ -219,7 +220,8 @@
                                                                         <div class="col-xxl-6">
                                                                             <div>
                                                                                 <label for="firstName"
-                                                                                    class="form-label">Citizen ID NO
+                                                                                    class="form-label">Citizen ID
+                                                                                    NO
                                                                                 </label>
                                                                                 <input type="text" class="form-control"
                                                                                     id="firstName"
@@ -389,14 +391,16 @@
                                                         <div class="modal-content">
                                                             <div class="modal-header">
                                                                 <h5 class="modal-title" id="exampleModalgridLabel">
-                                                                    AddTransferor/Transferee(Firms/Coporate/Agency)</h5>
+                                                                    Add Transferor/Transferee(Firms/Coporate/Agency)
+                                                                </h5>
                                                                 <button type="button" class="btn-close"
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body">
                                                                 <div class="">
                                                                     <div class="col-12 p-3 mb-2 btn-success text-white">
-                                                                        NOTE:If CID NO. is valid other details(Name,DoB
+                                                                        NOTE:If CID NO. is valid other
+                                                                        details(Name,DoB
                                                                         and Gender) will be fetched automatically.
                                                                     </div>
                                                                 </div>
@@ -546,25 +550,25 @@
                                                     <table class="table align-middle table-nowrap" id="customerTable">
                                                         <thead class="table-light">
                                                             <tr>
-                                                                <th class="sort" data-sort="sl">SL.No</th>
-                                                                <th class="sort" data-sort="party">Party</th>
-                                                                <th class="sort" data-sort="name">Name</th>
-                                                                <th class="sort" data-sort="phone">
+                                                                <th>SL.No</th>
+                                                                <th>Party</th>
+                                                                <th>Name</th>
+                                                                <th>
                                                                     CID|DoB|Gender
                                                                 </th>
-                                                                <th class="sort" data-sort="date">Gewog|House
+                                                                <th>Gewog|House
                                                                     No.
                                                                 </th>
-                                                                <th class="sort" data-sort="date">
+                                                                <th>
                                                                     Mobile|Email|Qualification</th>
-                                                                <th class="sort" data-sort="date">
+                                                                <th>
                                                                     Thram|Ownership
                                                                 </th>
-                                                                <th class="sort" data-sort="date">
+                                                                <th>
                                                                     WitnessName|CID|Mobile</th>
-                                                                <th class="sort" data-sort="date">Lagthram
+                                                                <th>Lagthram
                                                                     Collection point</th>
-                                                                <th class="sort" data-sort="action">Action
+                                                                <th data-sort="action">Action
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -572,7 +576,8 @@
                                                             <tr>
                                                                 <td class="id" style="display:none;"><a
                                                                         href="javascript:void(0);"
-                                                                        class="fw-medium link-primary">#VZ2101</a></td>
+                                                                        class="fw-medium link-primary">#VZ2101</a>
+                                                                </td>
                                                                 <td class="customer_name">Mary Cousar</td>
                                                                 <td class="email">marycousar@velzon.com</td>
                                                                 <td class="phone">580-464-4694</td>
@@ -608,15 +613,14 @@
                                     <!-- end col -->
                                     {{-- end of table --}}
                                 </div>
-                                
+
                                 <div class="d-flex align-items-start gap-3 mt-4">
                                     <button type="button" class="btn btn-link text-decoration-none btn-label previestab"
                                         data-previous="pills-gen-info-tab"><i
-                                            class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to
+                                            class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back
+                                        to
                                         General</button>
-                                    <button type="button"
-                                        class="btn btn-success btn-label right ms-auto nexttab
-    nexttab"
+                                    <button type="button" class="btn btn-success btn-label right ms-auto nexttabnexttab"
                                         data-nexttab="pills-success-tab"><i
                                             class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>NEXT</button>
                                 </div>
@@ -630,8 +634,7 @@
                                     <div class="row g-4 mt-xl-1 mt-lg-mt-1 mt-ms-2 mb-3">
                                         <div class="col-sm-auto mt-sm-2">
                                             <div>
-                                                <button type="button"
-                                                    class="btn btn-success add-btn "
+                                                <button type="button" class="btn btn-success add-btn "
                                                     data-bs-toggle="modal" data-bs-target="#exampleModalgridaddtrans"><i
                                                         class="ri-add-line align-bottom me-1"></i>Add Transaction
                                                     Details</button>
@@ -645,7 +648,8 @@
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalgridLabel">Add Transaction
+                                                    <h5 class="modal-title" id="exampleModalgridLabel">Add
+                                                        Transaction
                                                         Details
                                                     </h5>
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -654,9 +658,11 @@
                                                 <div class="modal-body">
                                                     <div class="">
                                                         <div class="col-12 p-3 mb-2 btn-success text-white">
-                                                            NOTE:if you are transfering the whole plot enter the same
+                                                            NOTE:if you are transfering the whole plot enter the
+                                                            same
                                                             area and please use this remark section to help the
-                                                            officials at Thromde/Dzongkhag to understand what you are
+                                                            officials at Thromde/Dzongkhag to understand what you
+                                                            are
                                                             trying to do.
                                                         </div>
                                                     </div>
@@ -718,12 +724,14 @@
                                                                                                 Precint
                                                                                             </th>
                                                                                             <th class="sort"
-                                                                                                data-sort="date">Thram
+                                                                                                data-sort="date">
+                                                                                                Thram
                                                                                                 Area
                                                                                             </th>
                                                                                             <th class="sort"
                                                                                                 data-sort="status">
-                                                                                                Transaction Area</th>
+                                                                                                Transaction Area
+                                                                                            </th>
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody class="list form-check-all">
@@ -817,9 +825,13 @@
                             </div>
 
                             <div class="d-flex align-items-start gap-3 mt-4">
-                                <button type="button" class="btn btn-link text-decoration-none btn-label previestab" data-previous="pills-gen-info-tab" ><i class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to General</button>
-                                <button type="button" class="btn btn-success btn-label right ms-auto nexttab
-nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>NEXT</button>
+                                <button type="button" class="btn btn-link text-decoration-none btn-label previestab"
+                                    data-previous="pills-gen-info-tab"><i
+                                        class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to
+                                    General</button>
+                                <button type="button" class="btn btn-success btn-label right ms-auto nexttab nexttab"
+                                    data-nexttab="pills-success-tab"><i
+                                        class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>NEXT</button>
                             </div>
                         </div>
                         {{-- end second step button --}}
@@ -830,8 +842,8 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                             <div class="row g-4 mb-3 mt-sm-3">
                                 <div class="col-sm-auto">
                                     <div>
-                                        <button type="button" class="btn btn-success add-btn"
-                                            data-bs-toggle="modal" data-bs-target="#staticBackdropValuation"><i
+                                        <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdropValuation"><i
                                                 class="ri-add-line align-bottom me-1"></i>Add Valuation</button>
                                     </div>
                                 </div>
@@ -854,9 +866,10 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                                         </div>
                                         <div class="modal-body">
                                             <div class="">
-                                                <div class="col-12 p-3 mb-2 bg-info text-white">
+                                                <div class="col-12 p-3 mb-2 bg-in text-white">
                                                     NOTE:if there is no land and flat/building cost, you can enter
-                                                    0(Zero).if there is only one plot under the thram and transfering
+                                                    0(Zero).if there is only one plot under the thram and
+                                                    transfering
                                                     the whole plot,please select keep same thram number.
                                                 </div>
                                             </div>
@@ -905,7 +918,8 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                                                 Valuation</span>
                                         </div>
                                         <span class="d-block ps-4 py-1">Cost of Land(Ngultrum | Nu):</span>
-                                        <span class="d-block ps-4 py-1">Cost of Building/Flat(Ngultrum | Nu):</span>
+                                        <span class="d-block ps-4 py-1">Cost of Building/Flat(Ngultrum |
+                                            Nu):</span>
                                     </div>
                                 </div>
                                 <div class="col-6 col-lg-6 col-md-6 col-sm-12">
@@ -923,8 +937,8 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                             <div class="row">
                                 <div class="col-12">
                                     <div class="mt-3 mb-5">
-                                        <button type="button" class="btn btn-success  add-btn"
-                                            data-bs-toggle="modal" data-bs-target="#staticBackdropAttachment"><i
+                                        <button type="button" class="btn btn-success  add-btn" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdropAttachment"><i
                                                 class="ri-add-line align-bottom me-1"></i> Add Attachment</button>
                                         <!-- Modal -->
                                         <div class="modal fade" id="staticBackdropAttachment" data-bs-backdrop="static"
@@ -942,10 +956,14 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                                                     <div class="modal-body">
                                                         <div class="">
                                                             <div class="col-12 p-3 mb-2 btn-success text-white">
-                                                                Note:System will accept file size of only 2MB(Size per
-                                                                File/Attachment).Comparess your files if size is above
-                                                                2MB.We recommend you to upload your files in PDF format.
-                                                                Allowed File Types:jpg,png, jpeg, pdf, xlsx, tif, xml,
+                                                                Note:System will accept file size of only 2MB(Size
+                                                                per
+                                                                File/Attachment).Comparess your files if size is
+                                                                above
+                                                                2MB.We recommend you to upload your files in PDF
+                                                                format.
+                                                                Allowed File Types:jpg,png, jpeg, pdf, xlsx, tif,
+                                                                xml,
                                                                 raw,see,fld,dwg,csv.
                                                             </div>
                                                         </div>
@@ -983,9 +1001,14 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
                             </div>
                             {{-- end add attachment --}}
                             <div class="d-flex align-items-start gap-3 mt-4">
-                                <button type="button" class="btn btn-link text-decoration-none btn-label previestab" data-previous="pills-gen-info-tab" ><i class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to General</button>
+                                <button type="button" class="btn btn-link text-decoration-none btn-label previestab"
+                                    data-previous="pills-gen-info-tab"><i
+                                        class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i> Back to
+                                    General</button>
                                 <button type="button" class="btn btn-success btn-label right ms-auto nexttab
-nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>COMPLETE</button>
+nexttab"
+                                    data-nexttab="pills-success-tab"><i
+                                        class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>COMPLETE</button>
                             </div>
                         </div>
                         <!-- end three step button -->
@@ -1017,8 +1040,6 @@ nexttab" data-nexttab="pills-success-tab"><i class="ri-arrow-right-line label-ic
         <!-- end card -->
     </div>
     <!-- end col -->
-    </div><!-- end row -->
-    <!-- end row -->
 @endsection
 @section('script')
     <script src="{{ URL::asset('assets/js/pages/form-wizard.init.js') }}"></script>
